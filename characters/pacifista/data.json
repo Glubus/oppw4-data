@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "pacifista",
+  "display_name": "Pacifista",
+  "aliases": [],
+  "ids": {
+    "playable": 55,
+    "runtime": 111,
+    "boss_runtime": 85,
+    "model": 62
+  },
+  "models": [
+    {
+      "id": 62,
+      "stem": "MNPC011_Pacifista",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

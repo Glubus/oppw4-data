@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kaido_d2",
+  "display_name": "Kaido Dragon",
+  "aliases": [
+    "dragon_kaido"
+  ],
+  "ids": {
+    "playable": 170,
+    "runtime": 565,
+    "boss_runtime": 48,
+    "model": 306
+  },
+  "models": [
+    {
+      "id": 306,
+      "stem": "MDLC067_Kaido_D2",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

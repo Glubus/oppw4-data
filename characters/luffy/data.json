@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "luffy",
+  "display_name": "Monkey D. Luffy",
+  "aliases": [
+    "mugiwara",
+    "straw_hat",
+    "monkey_d_luffy"
+  ],
+  "ids": {
+    "playable": 0,
+    "runtime": 0,
+    "boss_runtime": 0,
+    "model": 0
+  },
+  "models": [
+    {
+      "id": 0,
+      "stem": "MPLC000_Luffy",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

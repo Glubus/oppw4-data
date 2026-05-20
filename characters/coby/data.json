@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "coby",
+  "display_name": "Coby",
+  "aliases": [
+    "koby"
+  ],
+  "ids": {
+    "playable": 59,
+    "runtime": 126,
+    "boss_runtime": 100,
+    "model": 77
+  },
+  "models": [
+    {
+      "id": 77,
+      "stem": "MNPC026_Coby",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

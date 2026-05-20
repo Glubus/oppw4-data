@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "brook",
+  "display_name": "Brook",
+  "aliases": [],
+  "ids": {
+    "playable": 8,
+    "runtime": 8,
+    "boss_runtime": 8,
+    "model": 8
+  },
+  "models": [
+    {
+      "id": 8,
+      "stem": "MPLC008_Brook",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

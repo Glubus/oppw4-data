@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "pica",
+  "display_name": "Pica",
+  "aliases": [],
+  "ids": {
+    "playable": 63,
+    "runtime": 132,
+    "boss_runtime": 104,
+    "model": 86
+  },
+  "models": [
+    {
+      "id": 86,
+      "stem": "MNPC035_PicaC",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

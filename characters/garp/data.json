@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "garp",
+  "display_name": "Monkey D. Garp",
+  "aliases": [
+    "monkey_d_garp"
+  ],
+  "ids": {
+    "playable": 48,
+    "runtime": 25,
+    "boss_runtime": 25,
+    "model": 25
+  },
+  "models": [
+    {
+      "id": 25,
+      "stem": "MPLC025_Garp",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

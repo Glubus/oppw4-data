@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "jimbei",
+  "display_name": "Jimbei",
+  "aliases": [
+    "jinbe",
+    "jinbei"
+  ],
+  "ids": {
+    "playable": 11,
+    "runtime": 11,
+    "boss_runtime": 11,
+    "model": 11
+  },
+  "models": [
+    {
+      "id": 11,
+      "stem": "MPLC011_Jimbei",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

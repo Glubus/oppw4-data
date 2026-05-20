@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "ivankov",
+  "display_name": "Ivankov",
+  "aliases": [],
+  "ids": {
+    "playable": 28,
+    "runtime": 35,
+    "boss_runtime": 35,
+    "model": 35
+  },
+  "models": [
+    {
+      "id": 35,
+      "stem": "MPLC035_Ivankov",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

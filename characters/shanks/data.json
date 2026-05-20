@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "shanks",
+  "display_name": "Shanks",
+  "aliases": [],
+  "ids": {
+    "playable": 29,
+    "runtime": 36,
+    "boss_runtime": 36,
+    "model": 36
+  },
+  "models": [
+    {
+      "id": 36,
+      "stem": "MPLC036_Shanks",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

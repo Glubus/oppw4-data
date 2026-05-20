@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "eneru_th_d",
+  "display_name": "Eneru Thunder Divine",
+  "aliases": [
+    "enel_thunder_divine"
+  ],
+  "ids": {
+    "playable": 194,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 326
+  },
+  "models": [
+    {
+      "id": 326,
+      "stem": "MDLC087_Eneru_TH_D",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

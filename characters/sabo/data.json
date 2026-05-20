@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "sabo",
+  "display_name": "Sabo",
+  "aliases": [],
+  "ids": {
+    "playable": 26,
+    "runtime": 31,
+    "boss_runtime": 31,
+    "model": 31
+  },
+  "models": [
+    {
+      "id": 31,
+      "stem": "MPLC031_Sabo",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

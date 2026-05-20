@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "mihawk",
+  "display_name": "Mihawk",
+  "aliases": [
+    "dracule_mihawk"
+  ],
+  "ids": {
+    "playable": 14,
+    "runtime": 14,
+    "boss_runtime": 14,
+    "model": 14
+  },
+  "models": [
+    {
+      "id": 14,
+      "stem": "MPLC014_Mihawk",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

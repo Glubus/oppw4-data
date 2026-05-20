@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "king",
+  "display_name": "King",
+  "aliases": [],
+  "ids": {
+    "playable": 196,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 328
+  },
+  "models": [
+    {
+      "id": 328,
+      "stem": "MDLC089_King",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "ssnake",
+  "display_name": "S-Snake",
+  "aliases": [
+    "s_snake",
+    "s-snake"
+  ],
+  "ids": {
+    "playable": 187,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 319
+  },
+  "models": [
+    {
+      "id": 319,
+      "stem": "MDLC080_SSnake",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

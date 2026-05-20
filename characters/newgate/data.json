@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "newgate",
+  "display_name": "Edward Newgate",
+  "aliases": [
+    "whitebeard",
+    "barbe_blanche",
+    "edward_newgate"
+  ],
+  "ids": {
+    "playable": 12,
+    "runtime": 12,
+    "boss_runtime": 12,
+    "model": 12
+  },
+  "models": [
+    {
+      "id": 12,
+      "stem": "MPLC012_Newgate",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

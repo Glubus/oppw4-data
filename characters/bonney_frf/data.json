@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "bonney_frf",
+  "display_name": "Bonney Future",
+  "aliases": [
+    "bonney_future"
+  ],
+  "ids": {
+    "playable": 186,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 318
+  },
+  "models": [
+    {
+      "id": 318,
+      "stem": "MDLC079_Bonney_FRF",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

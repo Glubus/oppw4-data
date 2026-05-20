@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "buggy",
+  "display_name": "Buggy",
+  "aliases": [],
+  "ids": {
+    "playable": 13,
+    "runtime": 13,
+    "boss_runtime": 13,
+    "model": 13
+  },
+  "models": [
+    {
+      "id": 13,
+      "stem": "MPLC013_Buggy",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/movesets.schema.json",
+  "character_id": "rayleigh_yng",
+  "base": {
+    "linkdata_file": "LINKDATA_A",
+    "entry": 248
+  },
+  "variants": [],
+  "notes": []
+}

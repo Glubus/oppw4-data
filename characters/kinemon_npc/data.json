@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kinemon_npc",
+  "display_name": "Kinemon NPC",
+  "aliases": [],
+  "ids": {
+    "playable": 61,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 80
+  },
+  "models": [
+    {
+      "id": 80,
+      "stem": "MNPC029_Kinemon",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

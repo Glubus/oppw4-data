@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "cracker_b",
+  "display_name": "Cracker B",
+  "aliases": [],
+  "ids": {
+    "playable": 156,
+    "runtime": 545,
+    "boss_runtime": 282,
+    "model": 282
+  },
+  "models": [
+    {
+      "id": 282,
+      "stem": "MDLC043_Cracker_B",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

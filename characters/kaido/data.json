@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kaido",
+  "display_name": "Kaido",
+  "aliases": [],
+  "ids": {
+    "playable": 40,
+    "runtime": 48,
+    "boss_runtime": 48,
+    "model": 48
+  },
+  "models": [
+    {
+      "id": 48,
+      "stem": "MPLC048_Kaido",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

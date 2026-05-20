@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "judge",
+  "display_name": "Judge",
+  "aliases": [],
+  "ids": {
+    "playable": 157,
+    "runtime": 62,
+    "boss_runtime": 127,
+    "model": 283
+  },
+  "models": [
+    {
+      "id": 283,
+      "stem": "MDLC044_Judge_PC",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

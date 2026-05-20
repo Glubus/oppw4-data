@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kaido_hb",
+  "display_name": "Kaido Hybrid",
+  "aliases": [
+    "hybrid_kaido"
+  ],
+  "ids": {
+    "playable": 169,
+    "runtime": 70,
+    "boss_runtime": 294,
+    "model": 296
+  },
+  "models": [
+    {
+      "id": 296,
+      "stem": "MDLC057_Kaido_HB",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

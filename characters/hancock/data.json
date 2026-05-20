@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "hancock",
+  "display_name": "Boa Hancock",
+  "aliases": [
+    "boa_hancock"
+  ],
+  "ids": {
+    "playable": 10,
+    "runtime": 10,
+    "boss_runtime": 10,
+    "model": 10
+  },
+  "models": [
+    {
+      "id": 10,
+      "stem": "MPLC010_Hancock",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

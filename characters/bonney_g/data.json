@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "bonney_g",
+  "display_name": "Bonney Gear",
+  "aliases": [
+    "bonney_gear"
+  ],
+  "ids": {
+    "playable": 185,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 316
+  },
+  "models": [
+    {
+      "id": 316,
+      "stem": "MDLC077_Bonney_G",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

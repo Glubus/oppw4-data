@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "hawkins",
+  "display_name": "Hawkins",
+  "aliases": [],
+  "ids": {
+    "playable": 42,
+    "runtime": 50,
+    "boss_runtime": 50,
+    "model": 50
+  },
+  "models": [
+    {
+      "id": 50,
+      "stem": "MPLC050_Hawkins_NW",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

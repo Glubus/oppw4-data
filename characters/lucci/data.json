@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "lucci",
+  "display_name": "Lucci",
+  "aliases": [
+    "rob_lucci"
+  ],
+  "ids": {
+    "playable": 27,
+    "runtime": 32,
+    "boss_runtime": 32,
+    "model": 32
+  },
+  "models": [
+    {
+      "id": 32,
+      "stem": "MPLC032_Lucci",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

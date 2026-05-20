@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "nami",
+  "display_name": "Nami",
+  "aliases": [],
+  "ids": {
+    "playable": 2,
+    "runtime": 2,
+    "boss_runtime": 2,
+    "model": 2
+  },
+  "models": [
+    {
+      "id": 2,
+      "stem": "MPLC002_Nami",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

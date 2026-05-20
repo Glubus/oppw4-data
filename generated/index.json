@@ -1,0 +1,682 @@
+{
+  "characters": [
+    {
+      "id": "ace",
+      "display_name": "Ace",
+      "path": "characters/ace/data.json",
+      "movesets": "characters/ace/movesets.json"
+    },
+    {
+      "id": "akainu",
+      "display_name": "Akainu",
+      "path": "characters/akainu/data.json",
+      "movesets": "characters/akainu/movesets.json"
+    },
+    {
+      "id": "aokiji",
+      "display_name": "Aokiji",
+      "path": "characters/aokiji/data.json",
+      "movesets": "characters/aokiji/movesets.json"
+    },
+    {
+      "id": "bartolomeo",
+      "display_name": "Bartolomeo",
+      "path": "characters/bartolomeo/data.json",
+      "movesets": null
+    },
+    {
+      "id": "bege",
+      "display_name": "Bege",
+      "path": "characters/bege/data.json",
+      "movesets": null
+    },
+    {
+      "id": "bellamy",
+      "display_name": "Bellamy",
+      "path": "characters/bellamy/data.json",
+      "movesets": null
+    },
+    {
+      "id": "blueno",
+      "display_name": "Blueno",
+      "path": "characters/blueno/data.json",
+      "movesets": null
+    },
+    {
+      "id": "bonney_egh",
+      "display_name": "Bonney",
+      "path": "characters/bonney_egh/data.json",
+      "movesets": null
+    },
+    {
+      "id": "bonney_frf",
+      "display_name": "Bonney Future",
+      "path": "characters/bonney_frf/data.json",
+      "movesets": null
+    },
+    {
+      "id": "bonney_g",
+      "display_name": "Bonney Gear",
+      "path": "characters/bonney_g/data.json",
+      "movesets": null
+    },
+    {
+      "id": "brook",
+      "display_name": "Brook",
+      "path": "characters/brook/data.json",
+      "movesets": null
+    },
+    {
+      "id": "buggy",
+      "display_name": "Buggy",
+      "path": "characters/buggy/data.json",
+      "movesets": null
+    },
+    {
+      "id": "burgess",
+      "display_name": "Burgess",
+      "path": "characters/burgess/data.json",
+      "movesets": null
+    },
+    {
+      "id": "carrot",
+      "display_name": "Carrot",
+      "path": "characters/carrot/data.json",
+      "movesets": null
+    },
+    {
+      "id": "cavendish",
+      "display_name": "Cavendish",
+      "path": "characters/cavendish/data.json",
+      "movesets": null
+    },
+    {
+      "id": "chopper",
+      "display_name": "Chopper",
+      "path": "characters/chopper/data.json",
+      "movesets": null
+    },
+    {
+      "id": "coby",
+      "display_name": "Coby",
+      "path": "characters/coby/data.json",
+      "movesets": null
+    },
+    {
+      "id": "coby_red",
+      "display_name": "Coby Red",
+      "path": "characters/coby_red/data.json",
+      "movesets": null
+    },
+    {
+      "id": "cracker",
+      "display_name": "Cracker",
+      "path": "characters/cracker/data.json",
+      "movesets": null
+    },
+    {
+      "id": "cracker_b",
+      "display_name": "Cracker B",
+      "path": "characters/cracker_b/data.json",
+      "movesets": null
+    },
+    {
+      "id": "crocodile",
+      "display_name": "Crocodile",
+      "path": "characters/crocodile/data.json",
+      "movesets": null
+    },
+    {
+      "id": "diamante",
+      "display_name": "Diamante",
+      "path": "characters/diamante/data.json",
+      "movesets": null
+    },
+    {
+      "id": "doflamingo",
+      "display_name": "Donquixote Doflamingo",
+      "path": "characters/doflamingo/data.json",
+      "movesets": "characters/doflamingo/movesets.json"
+    },
+    {
+      "id": "drake",
+      "display_name": "Drake",
+      "path": "characters/drake/data.json",
+      "movesets": null
+    },
+    {
+      "id": "drake_chg",
+      "display_name": "Drake Chg",
+      "path": "characters/drake_chg/data.json",
+      "movesets": null
+    },
+    {
+      "id": "drake_chg_npc",
+      "display_name": "Drake Change NPC",
+      "path": "characters/drake_chg_npc/data.json",
+      "movesets": null
+    },
+    {
+      "id": "eneru_a_d",
+      "display_name": "Eneru Amaru",
+      "path": "characters/eneru_a_d/data.json",
+      "movesets": null
+    },
+    {
+      "id": "eneru_d",
+      "display_name": "Eneru Divine",
+      "path": "characters/eneru_d/data.json",
+      "movesets": null
+    },
+    {
+      "id": "eneru_th_b",
+      "display_name": "Eneru Thunder Black",
+      "path": "characters/eneru_th_b/data.json",
+      "movesets": null
+    },
+    {
+      "id": "eneru_th_d",
+      "display_name": "Eneru Thunder Divine",
+      "path": "characters/eneru_th_d/data.json",
+      "movesets": null
+    },
+    {
+      "id": "eneru_th_w",
+      "display_name": "Eneru Thunder White",
+      "path": "characters/eneru_th_w/data.json",
+      "movesets": null
+    },
+    {
+      "id": "franky",
+      "display_name": "Franky",
+      "path": "characters/franky/data.json",
+      "movesets": null
+    },
+    {
+      "id": "fujitora",
+      "display_name": "Fujitora",
+      "path": "characters/fujitora/data.json",
+      "movesets": "characters/fujitora/movesets.json"
+    },
+    {
+      "id": "garp",
+      "display_name": "Monkey D. Garp",
+      "path": "characters/garp/data.json",
+      "movesets": "characters/garp/movesets.json"
+    },
+    {
+      "id": "garp_yng",
+      "display_name": "Monkey D. Garp (Young)",
+      "path": "characters/garp_yng/data.json",
+      "movesets": "characters/garp_yng/movesets.json"
+    },
+    {
+      "id": "gatling_n",
+      "display_name": "Gatling N",
+      "path": "characters/gatling_n/data.json",
+      "movesets": null
+    },
+    {
+      "id": "hancock",
+      "display_name": "Boa Hancock",
+      "path": "characters/hancock/data.json",
+      "movesets": null
+    },
+    {
+      "id": "hawkins",
+      "display_name": "Hawkins",
+      "path": "characters/hawkins/data.json",
+      "movesets": null
+    },
+    {
+      "id": "ichiji",
+      "display_name": "Ichiji",
+      "path": "characters/ichiji/data.json",
+      "movesets": null
+    },
+    {
+      "id": "ivankov",
+      "display_name": "Ivankov",
+      "path": "characters/ivankov/data.json",
+      "movesets": null
+    },
+    {
+      "id": "jabra",
+      "display_name": "Jabra",
+      "path": "characters/jabra/data.json",
+      "movesets": null
+    },
+    {
+      "id": "jack_chg",
+      "display_name": "Jack Change",
+      "path": "characters/jack_chg/data.json",
+      "movesets": null
+    },
+    {
+      "id": "jimbei",
+      "display_name": "Jimbei",
+      "path": "characters/jimbei/data.json",
+      "movesets": null
+    },
+    {
+      "id": "jozu",
+      "display_name": "Jozu",
+      "path": "characters/jozu/data.json",
+      "movesets": null
+    },
+    {
+      "id": "judge",
+      "display_name": "Judge",
+      "path": "characters/judge/data.json",
+      "movesets": null
+    },
+    {
+      "id": "kaido",
+      "display_name": "Kaido",
+      "path": "characters/kaido/data.json",
+      "movesets": "characters/kaido/movesets.json"
+    },
+    {
+      "id": "kaido_d2",
+      "display_name": "Kaido Dragon",
+      "path": "characters/kaido_d2/data.json",
+      "movesets": "characters/kaido_d2/movesets.json"
+    },
+    {
+      "id": "kaido_hb",
+      "display_name": "Kaido Hybrid",
+      "path": "characters/kaido_hb/data.json",
+      "movesets": null
+    },
+    {
+      "id": "kaku",
+      "display_name": "Kaku",
+      "path": "characters/kaku/data.json",
+      "movesets": null
+    },
+    {
+      "id": "katakuri",
+      "display_name": "Katakuri",
+      "path": "characters/katakuri/data.json",
+      "movesets": "characters/katakuri/movesets.json"
+    },
+    {
+      "id": "kid",
+      "display_name": "Eustass Kid",
+      "path": "characters/kid/data.json",
+      "movesets": null
+    },
+    {
+      "id": "kiku",
+      "display_name": "Kiku",
+      "path": "characters/kiku/data.json",
+      "movesets": "characters/kiku/movesets.json"
+    },
+    {
+      "id": "killer",
+      "display_name": "Killer",
+      "path": "characters/killer/data.json",
+      "movesets": null
+    },
+    {
+      "id": "kinemon",
+      "display_name": "Kinemon",
+      "path": "characters/kinemon/data.json",
+      "movesets": null
+    },
+    {
+      "id": "kinemon_npc",
+      "display_name": "Kinemon NPC",
+      "path": "characters/kinemon_npc/data.json",
+      "movesets": null
+    },
+    {
+      "id": "king",
+      "display_name": "King",
+      "path": "characters/king/data.json",
+      "movesets": null
+    },
+    {
+      "id": "king_bs",
+      "display_name": "King Beast",
+      "path": "characters/king_bs/data.json",
+      "movesets": null
+    },
+    {
+      "id": "king_dr",
+      "display_name": "King Dragon",
+      "path": "characters/king_dr/data.json",
+      "movesets": null
+    },
+    {
+      "id": "kizaru",
+      "display_name": "Kizaru",
+      "path": "characters/kizaru/data.json",
+      "movesets": "characters/kizaru/movesets.json"
+    },
+    {
+      "id": "kuma",
+      "display_name": "Kuma",
+      "path": "characters/kuma/data.json",
+      "movesets": null
+    },
+    {
+      "id": "kuma_egh",
+      "display_name": "Kuma Egghead",
+      "path": "characters/kuma_egh/data.json",
+      "movesets": null
+    },
+    {
+      "id": "law",
+      "display_name": "Law",
+      "path": "characters/law/data.json",
+      "movesets": "characters/law/movesets.json"
+    },
+    {
+      "id": "linlin",
+      "display_name": "Charlotte Linlin",
+      "path": "characters/linlin/data.json",
+      "movesets": "characters/linlin/movesets.json"
+    },
+    {
+      "id": "linlin_temperamented",
+      "display_name": "Charlotte Linlin Temperamented",
+      "path": "characters/linlin_temperamented/data.json",
+      "movesets": "characters/linlin_temperamented/movesets.json"
+    },
+    {
+      "id": "lucci",
+      "display_name": "Lucci",
+      "path": "characters/lucci/data.json",
+      "movesets": null
+    },
+    {
+      "id": "lucci_c_bs",
+      "display_name": "Lucci Beast",
+      "path": "characters/lucci_c_bs/data.json",
+      "movesets": null
+    },
+    {
+      "id": "lucci_cp0",
+      "display_name": "Lucci CP0",
+      "path": "characters/lucci_cp0/data.json",
+      "movesets": null
+    },
+    {
+      "id": "luffy",
+      "display_name": "Monkey D. Luffy",
+      "path": "characters/luffy/data.json",
+      "movesets": "characters/luffy/movesets.json"
+    },
+    {
+      "id": "luffy_bounceman",
+      "display_name": "Monkey D. Luffy Bounceman",
+      "path": "characters/luffy_bounceman/data.json",
+      "movesets": "characters/luffy_bounceman/movesets.json"
+    },
+    {
+      "id": "luffy_n_bny",
+      "display_name": "Monkey D. Luffy Bonney",
+      "path": "characters/luffy_n_bny/data.json",
+      "movesets": null
+    },
+    {
+      "id": "luffy_n_gear5",
+      "display_name": "Monkey D. Luffy Gear 5",
+      "path": "characters/luffy_n_gear5/data.json",
+      "movesets": null
+    },
+    {
+      "id": "luffy_n_oni",
+      "display_name": "Monkey D. Luffy (New Onigashima)",
+      "path": "characters/luffy_n_oni/data.json",
+      "movesets": null
+    },
+    {
+      "id": "luffy_oni",
+      "display_name": "Monkey D. Luffy (Onigashima)",
+      "path": "characters/luffy_oni/data.json",
+      "movesets": null
+    },
+    {
+      "id": "luffy_snakeman",
+      "display_name": "Monkey D. Luffy Snakeman",
+      "path": "characters/luffy_snakeman/data.json",
+      "movesets": "characters/luffy_snakeman/movesets.json"
+    },
+    {
+      "id": "marco",
+      "display_name": "Marco",
+      "path": "characters/marco/data.json",
+      "movesets": "characters/marco/movesets.json"
+    },
+    {
+      "id": "mihawk",
+      "display_name": "Mihawk",
+      "path": "characters/mihawk/data.json",
+      "movesets": "characters/mihawk/movesets.json"
+    },
+    {
+      "id": "mr1",
+      "display_name": "Mr. 1",
+      "path": "characters/mr1/data.json",
+      "movesets": null
+    },
+    {
+      "id": "mr2",
+      "display_name": "Mr. 2",
+      "path": "characters/mr2/data.json",
+      "movesets": null
+    },
+    {
+      "id": "mr3",
+      "display_name": "Mr. 3",
+      "path": "characters/mr3/data.json",
+      "movesets": null
+    },
+    {
+      "id": "nami",
+      "display_name": "Nami",
+      "path": "characters/nami/data.json",
+      "movesets": null
+    },
+    {
+      "id": "newgate",
+      "display_name": "Edward Newgate",
+      "path": "characters/newgate/data.json",
+      "movesets": "characters/newgate/movesets.json"
+    },
+    {
+      "id": "niji",
+      "display_name": "Niji",
+      "path": "characters/niji/data.json",
+      "movesets": null
+    },
+    {
+      "id": "oden",
+      "display_name": "Oden",
+      "path": "characters/oden/data.json",
+      "movesets": "characters/oden/movesets.json"
+    },
+    {
+      "id": "pacifista",
+      "display_name": "Pacifista",
+      "path": "characters/pacifista/data.json",
+      "movesets": null
+    },
+    {
+      "id": "perospero",
+      "display_name": "Perospero",
+      "path": "characters/perospero/data.json",
+      "movesets": null
+    },
+    {
+      "id": "pica",
+      "display_name": "Pica",
+      "path": "characters/pica/data.json",
+      "movesets": null
+    },
+    {
+      "id": "pica_giant",
+      "display_name": "Pica Giant",
+      "path": "characters/pica_giant/data.json",
+      "movesets": null
+    },
+    {
+      "id": "rayleigh_yng",
+      "display_name": "Rayleigh Young",
+      "path": "characters/rayleigh_yng/data.json",
+      "movesets": "characters/rayleigh_yng/movesets.json"
+    },
+    {
+      "id": "reiju",
+      "display_name": "Reiju",
+      "path": "characters/reiju/data.json",
+      "movesets": null
+    },
+    {
+      "id": "robin",
+      "display_name": "Robin",
+      "path": "characters/robin/data.json",
+      "movesets": null
+    },
+    {
+      "id": "roger",
+      "display_name": "Roger",
+      "path": "characters/roger/data.json",
+      "movesets": null
+    },
+    {
+      "id": "sabo",
+      "display_name": "Sabo",
+      "path": "characters/sabo/data.json",
+      "movesets": "characters/sabo/movesets.json"
+    },
+    {
+      "id": "sanji",
+      "display_name": "Sanji",
+      "path": "characters/sanji/data.json",
+      "movesets": "characters/sanji/movesets.json"
+    },
+    {
+      "id": "sengoku_chg",
+      "display_name": "Sengoku Change",
+      "path": "characters/sengoku_chg/data.json",
+      "movesets": null
+    },
+    {
+      "id": "shanks",
+      "display_name": "Shanks",
+      "path": "characters/shanks/data.json",
+      "movesets": "characters/shanks/movesets.json"
+    },
+    {
+      "id": "shanks_red",
+      "display_name": "Shanks (Red)",
+      "path": "characters/shanks_red/data.json",
+      "movesets": null
+    },
+    {
+      "id": "smoker",
+      "display_name": "Smoker",
+      "path": "characters/smoker/data.json",
+      "movesets": null
+    },
+    {
+      "id": "smoothie",
+      "display_name": "Smoothie",
+      "path": "characters/smoothie/data.json",
+      "movesets": null
+    },
+    {
+      "id": "ssnake",
+      "display_name": "S-Snake",
+      "path": "characters/ssnake/data.json",
+      "movesets": null
+    },
+    {
+      "id": "tashigi",
+      "display_name": "Tashigi",
+      "path": "characters/tashigi/data.json",
+      "movesets": null
+    },
+    {
+      "id": "teach",
+      "display_name": "Marshall D. Teach",
+      "path": "characters/teach/data.json",
+      "movesets": "characters/teach/movesets.json"
+    },
+    {
+      "id": "urouge",
+      "display_name": "Urouge",
+      "path": "characters/urouge/data.json",
+      "movesets": "characters/urouge/movesets.json"
+    },
+    {
+      "id": "urouge_chg",
+      "display_name": "Urouge Chg",
+      "path": "characters/urouge_chg/data.json",
+      "movesets": null
+    },
+    {
+      "id": "usopp",
+      "display_name": "Usopp",
+      "path": "characters/usopp/data.json",
+      "movesets": null
+    },
+    {
+      "id": "uta",
+      "display_name": "Uta",
+      "path": "characters/uta/data.json",
+      "movesets": null
+    },
+    {
+      "id": "uta_armor",
+      "display_name": "Uta Armor",
+      "path": "characters/uta_armor/data.json",
+      "movesets": null
+    },
+    {
+      "id": "uta_note",
+      "display_name": "Uta Note",
+      "path": "characters/uta_note/data.json",
+      "movesets": null
+    },
+    {
+      "id": "yamato",
+      "display_name": "Yamato",
+      "path": "characters/yamato/data.json",
+      "movesets": null
+    },
+    {
+      "id": "yamato_hb",
+      "display_name": "Yamato Hybrid",
+      "path": "characters/yamato_hb/data.json",
+      "movesets": null
+    },
+    {
+      "id": "yamato_s",
+      "display_name": "Yamato S",
+      "path": "characters/yamato_s/data.json",
+      "movesets": null
+    },
+    {
+      "id": "yonji",
+      "display_name": "Yonji",
+      "path": "characters/yonji/data.json",
+      "movesets": null
+    },
+    {
+      "id": "z_d",
+      "display_name": "Z",
+      "path": "characters/z_d/data.json",
+      "movesets": null
+    },
+    {
+      "id": "zoro",
+      "display_name": "Roronoa Zoro",
+      "path": "characters/zoro/data.json",
+      "movesets": "characters/zoro/movesets.json"
+    }
+  ]
+}

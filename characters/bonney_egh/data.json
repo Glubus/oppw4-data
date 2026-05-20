@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "bonney_egh",
+  "display_name": "Bonney",
+  "aliases": [
+    "bonney"
+  ],
+  "ids": {
+    "playable": 184,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 314
+  },
+  "models": [
+    {
+      "id": 314,
+      "stem": "MDLC075_Bonney_EGH",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

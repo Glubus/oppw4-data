@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "carrot",
+  "display_name": "Carrot",
+  "aliases": [],
+  "ids": {
+    "playable": 32,
+    "runtime": 40,
+    "boss_runtime": 40,
+    "model": 40
+  },
+  "models": [
+    {
+      "id": 40,
+      "stem": "MPLC040_Carrot",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

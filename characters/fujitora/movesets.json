@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/movesets.schema.json",
+  "character_id": "fujitora",
+  "base": {
+    "linkdata_file": "LINKDATA_A",
+    "entry": 93
+  },
+  "variants": [],
+  "notes": []
+}

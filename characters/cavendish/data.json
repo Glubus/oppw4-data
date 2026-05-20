@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "cavendish",
+  "display_name": "Cavendish",
+  "aliases": [],
+  "ids": {
+    "playable": 31,
+    "runtime": 38,
+    "boss_runtime": 38,
+    "model": 38
+  },
+  "models": [
+    {
+      "id": 38,
+      "stem": "MPLC038_Cavendish",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

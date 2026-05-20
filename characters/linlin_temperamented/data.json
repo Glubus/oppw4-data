@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "linlin_temperamented",
+  "display_name": "Charlotte Linlin Temperamented",
+  "aliases": [
+    "big_mom_temperamented",
+    "bigmom_temperamented",
+    "temperamented_big_mom",
+    "temperamented_bigmom"
+  ],
+  "ids": {
+    "playable": null,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": null
+  },
+  "models": [
+    {
+      "id": null,
+      "stem": "UNKNOWN_Linlin_Temperamented",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "yamato",
+  "display_name": "Yamato",
+  "aliases": [],
+  "ids": {
+    "playable": 171,
+    "runtime": 71,
+    "boss_runtime": 287,
+    "model": 297
+  },
+  "models": [
+    {
+      "id": 297,
+      "stem": "MDLC058_Yamato",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "jabra",
+  "display_name": "Jabra",
+  "aliases": [],
+  "ids": {
+    "playable": 52,
+    "runtime": 108,
+    "boss_runtime": 82,
+    "model": 59
+  },
+  "models": [
+    {
+      "id": 59,
+      "stem": "MNPC008_Jabra",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

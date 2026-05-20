@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kiku",
+  "display_name": "Kiku",
+  "aliases": [],
+  "ids": {
+    "playable": 163,
+    "runtime": 66,
+    "boss_runtime": 285,
+    "model": 287
+  },
+  "models": [
+    {
+      "id": 287,
+      "stem": "MDLC048_Kiku",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

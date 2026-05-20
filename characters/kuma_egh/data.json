@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kuma_egh",
+  "display_name": "Kuma Egghead",
+  "aliases": [
+    "egghead_kuma"
+  ],
+  "ids": {
+    "playable": 188,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 320
+  },
+  "models": [
+    {
+      "id": 320,
+      "stem": "MDLC081_Kuma_EGH",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

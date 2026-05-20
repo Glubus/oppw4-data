@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "tashigi",
+  "display_name": "Tashigi",
+  "aliases": [],
+  "ids": {
+    "playable": 24,
+    "runtime": 28,
+    "boss_runtime": 28,
+    "model": 28
+  },
+  "models": [
+    {
+      "id": 28,
+      "stem": "MPLC028_Tashigi",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

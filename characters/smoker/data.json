@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "smoker",
+  "display_name": "Smoker",
+  "aliases": [],
+  "ids": {
+    "playable": 20,
+    "runtime": 23,
+    "boss_runtime": 23,
+    "model": 23
+  },
+  "models": [
+    {
+      "id": 23,
+      "stem": "MPLC023_Smoker",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

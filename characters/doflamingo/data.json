@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "doflamingo",
+  "display_name": "Donquixote Doflamingo",
+  "aliases": [
+    "doffy",
+    "donquixote_doflamingo"
+  ],
+  "ids": {
+    "playable": 23,
+    "runtime": 27,
+    "boss_runtime": 27,
+    "model": 27
+  },
+  "models": [
+    {
+      "id": 27,
+      "stem": "MPLC027_Doflamingo",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

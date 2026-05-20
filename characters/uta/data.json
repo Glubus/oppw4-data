@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "uta",
+  "display_name": "Uta",
+  "aliases": [],
+  "ids": {
+    "playable": 174,
+    "runtime": 72,
+    "boss_runtime": 288,
+    "model": 299
+  },
+  "models": [
+    {
+      "id": 299,
+      "stem": "MDLC060_Uta",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

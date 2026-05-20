@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "gatling_n",
+  "display_name": "Gatling N",
+  "aliases": [],
+  "ids": {
+    "playable": 199,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 331
+  },
+  "models": [
+    {
+      "id": 331,
+      "stem": "MDLC092_Gatling_N",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "luffy_n_gear5",
+  "display_name": "Monkey D. Luffy Gear 5",
+  "aliases": [
+    "gear5",
+    "gear_5"
+  ],
+  "ids": {
+    "playable": 168,
+    "runtime": null,
+    "boss_runtime": 0,
+    "model": 295
+  },
+  "models": [
+    {
+      "id": 295,
+      "stem": "MDLC056_Luffy_N_Gear5",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

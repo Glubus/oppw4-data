@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "roger",
+  "display_name": "Roger",
+  "aliases": [],
+  "ids": {
+    "playable": 176,
+    "runtime": 75,
+    "boss_runtime": 289,
+    "model": 301
+  },
+  "models": [
+    {
+      "id": 301,
+      "stem": "MDLC062_Roger",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "jack_chg",
+  "display_name": "Jack Change",
+  "aliases": [],
+  "ids": {
+    "playable": 67,
+    "runtime": 140,
+    "boss_runtime": 107,
+    "model": 91
+  },
+  "models": [
+    {
+      "id": 91,
+      "stem": "MNPC040_Jack_Chg",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

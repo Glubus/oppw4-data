@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "rayleigh_yng",
+  "display_name": "Rayleigh Young",
+  "aliases": [
+    "young_rayleigh"
+  ],
+  "ids": {
+    "playable": 180,
+    "runtime": 77,
+    "boss_runtime": 116,
+    "model": 305
+  },
+  "models": [
+    {
+      "id": 305,
+      "stem": "MDLC066_Rayleigh_YNG",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

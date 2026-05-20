@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "usopp",
+  "display_name": "Usopp",
+  "aliases": [],
+  "ids": {
+    "playable": 3,
+    "runtime": 3,
+    "boss_runtime": 3,
+    "model": 3
+  },
+  "models": [
+    {
+      "id": 3,
+      "stem": "MPLC003_Usopp",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

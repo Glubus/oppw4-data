@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kuma",
+  "display_name": "Kuma",
+  "aliases": [],
+  "ids": {
+    "playable": null,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 17
+  },
+  "models": [
+    {
+      "id": 17,
+      "stem": "MPLC017_Kuma",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

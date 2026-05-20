@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "luffy_bounceman",
+  "display_name": "Monkey D. Luffy Bounceman",
+  "aliases": [
+    "bounceman",
+    "boundman",
+    "luffy_boundman",
+    "luffy_bounce_man"
+  ],
+  "ids": {
+    "playable": null,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": null
+  },
+  "models": [
+    {
+      "id": null,
+      "stem": "UNKNOWN_Luffy_Bounceman",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "mr1",
+  "display_name": "Mr. 1",
+  "aliases": [
+    "daz_bones"
+  ],
+  "ids": {
+    "playable": 56,
+    "runtime": 119,
+    "boss_runtime": 93,
+    "model": 70
+  },
+  "models": [
+    {
+      "id": 70,
+      "stem": "MNPC019_Mr1",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

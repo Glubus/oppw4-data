@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "killer",
+  "display_name": "Killer",
+  "aliases": [],
+  "ids": {
+    "playable": 160,
+    "runtime": 64,
+    "boss_runtime": 283,
+    "model": 285
+  },
+  "models": [
+    {
+      "id": 285,
+      "stem": "MDLC046_Killer",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

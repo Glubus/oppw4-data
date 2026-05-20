@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kizaru",
+  "display_name": "Kizaru",
+  "aliases": [
+    "borsalino"
+  ],
+  "ids": {
+    "playable": 17,
+    "runtime": 18,
+    "boss_runtime": 18,
+    "model": 18
+  },
+  "models": [
+    {
+      "id": 18,
+      "stem": "MPLC018_Kizaru",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

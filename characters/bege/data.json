@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "bege",
+  "display_name": "Bege",
+  "aliases": [
+    "capone_bege"
+  ],
+  "ids": {
+    "playable": 37,
+    "runtime": 45,
+    "boss_runtime": 45,
+    "model": 45
+  },
+  "models": [
+    {
+      "id": 45,
+      "stem": "MPLC045_Bege",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

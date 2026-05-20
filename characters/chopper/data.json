@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "chopper",
+  "display_name": "Chopper",
+  "aliases": [],
+  "ids": {
+    "playable": 5,
+    "runtime": 5,
+    "boss_runtime": 5,
+    "model": 5
+  },
+  "models": [
+    {
+      "id": 5,
+      "stem": "MPLC005_Chopper",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

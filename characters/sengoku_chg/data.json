@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "sengoku_chg",
+  "display_name": "Sengoku Change",
+  "aliases": [],
+  "ids": {
+    "playable": 60,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 79
+  },
+  "models": [
+    {
+      "id": 79,
+      "stem": "MNPC028_Sengoku_Chg",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "urouge_chg",
+  "display_name": "Urouge Chg",
+  "aliases": [],
+  "ids": {
+    "playable": 162,
+    "runtime": null,
+    "boss_runtime": 284,
+    "model": 291
+  },
+  "models": [
+    {
+      "id": 291,
+      "stem": "MDLC052_Urouge_Chg",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

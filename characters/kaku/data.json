@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kaku",
+  "display_name": "Kaku",
+  "aliases": [],
+  "ids": {
+    "playable": 51,
+    "runtime": 107,
+    "boss_runtime": 80,
+    "model": 58
+  },
+  "models": [
+    {
+      "id": 58,
+      "stem": "MNPC007_Kaku",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

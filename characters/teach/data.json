@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "teach",
+  "display_name": "Marshall D. Teach",
+  "aliases": [
+    "blackbeard",
+    "marshall_d_teach"
+  ],
+  "ids": {
+    "playable": 16,
+    "runtime": 16,
+    "boss_runtime": 16,
+    "model": 16
+  },
+  "models": [
+    {
+      "id": 16,
+      "stem": "MPLC016_Teach",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

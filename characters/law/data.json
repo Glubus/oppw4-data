@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "law",
+  "display_name": "Law",
+  "aliases": [
+    "trafalgar_law",
+    "trafalgar_d_water_law"
+  ],
+  "ids": {
+    "playable": 22,
+    "runtime": 26,
+    "boss_runtime": 26,
+    "model": 26
+  },
+  "models": [
+    {
+      "id": 26,
+      "stem": "MPLC026_Law",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

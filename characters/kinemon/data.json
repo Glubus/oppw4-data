@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kinemon",
+  "display_name": "Kinemon",
+  "aliases": [],
+  "ids": {
+    "playable": 164,
+    "runtime": 67,
+    "boss_runtime": 102,
+    "model": 288
+  },
+  "models": [
+    {
+      "id": 288,
+      "stem": "MDLC049_Kinemon_PC",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

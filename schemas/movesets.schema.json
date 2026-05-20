@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/movesets.schema.json",
+  "title": "OPPW4 Character Movesets",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["character_id", "base", "variants"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "character_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_][a-z0-9_-]*$"
+    },
+    "base": {
+      "$ref": "#/$defs/moveset_ref"
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "moveset"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9_][a-z0-9_-]*$"
+          },
+          "label": {
+            "type": "string"
+          },
+          "moveset": {
+            "$ref": "#/$defs/moveset_ref"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "moveset_ref": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["linkdata_file", "entry"],
+      "properties": {
+        "linkdata_file": {
+          "type": "string",
+          "enum": ["LINKDATA_A"]
+        },
+        "entry": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 65535
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "linlin",
+  "display_name": "Charlotte Linlin",
+  "aliases": [
+    "big_mom",
+    "bigmom",
+    "charlotte_linlin"
+  ],
+  "ids": {
+    "playable": 38,
+    "runtime": 46,
+    "boss_runtime": 46,
+    "model": 46
+  },
+  "models": [
+    {
+      "id": 46,
+      "stem": "MPLC046_Linlin",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

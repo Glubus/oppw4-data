@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "blueno",
+  "display_name": "Blueno",
+  "aliases": [],
+  "ids": {
+    "playable": 53,
+    "runtime": 109,
+    "boss_runtime": 83,
+    "model": 60
+  },
+  "models": [
+    {
+      "id": 60,
+      "stem": "MNPC009_Blueno",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

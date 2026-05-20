@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "eneru_d",
+  "display_name": "Eneru Divine",
+  "aliases": [
+    "eneru",
+    "enel"
+  ],
+  "ids": {
+    "playable": 190,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 322
+  },
+  "models": [
+    {
+      "id": 322,
+      "stem": "MDLC083_Eneru_D",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

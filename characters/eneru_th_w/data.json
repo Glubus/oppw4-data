@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "eneru_th_w",
+  "display_name": "Eneru Thunder White",
+  "aliases": [
+    "enel_thunder_white"
+  ],
+  "ids": {
+    "playable": 193,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 325
+  },
+  "models": [
+    {
+      "id": 325,
+      "stem": "MDLC086_Eneru_TH_W",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

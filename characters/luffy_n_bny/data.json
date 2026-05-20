@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "luffy_n_bny",
+  "display_name": "Monkey D. Luffy Bonney",
+  "aliases": [
+    "luffy_bonney"
+  ],
+  "ids": {
+    "playable": 189,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 321
+  },
+  "models": [
+    {
+      "id": 321,
+      "stem": "MDLC082_Luffy_N_BNY",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

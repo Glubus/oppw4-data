@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "diamante",
+  "display_name": "Diamante",
+  "aliases": [],
+  "ids": {
+    "playable": 66,
+    "runtime": 138,
+    "boss_runtime": 105,
+    "model": 89
+  },
+  "models": [
+    {
+      "id": 89,
+      "stem": "MNPC038_Diamante",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

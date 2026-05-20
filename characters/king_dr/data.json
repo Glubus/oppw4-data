@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "king_dr",
+  "display_name": "King Dragon",
+  "aliases": [
+    "king_dragon"
+  ],
+  "ids": {
+    "playable": 198,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 330
+  },
+  "models": [
+    {
+      "id": 330,
+      "stem": "MDLC091_King_DR",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

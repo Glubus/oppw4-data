@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "yonji",
+  "display_name": "Yonji",
+  "aliases": [],
+  "ids": {
+    "playable": 36,
+    "runtime": 44,
+    "boss_runtime": 44,
+    "model": 44
+  },
+  "models": [
+    {
+      "id": 44,
+      "stem": "MPLC044_Yonji",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

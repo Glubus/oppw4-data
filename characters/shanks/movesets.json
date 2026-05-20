@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/movesets.schema.json",
+  "character_id": "shanks",
+  "base": {
+    "linkdata_file": "LINKDATA_A",
+    "entry": 97
+  },
+  "variants": [],
+  "notes": []
+}

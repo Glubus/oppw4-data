@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "katakuri",
+  "display_name": "Katakuri",
+  "aliases": [
+    "charlotte_katakuri"
+  ],
+  "ids": {
+    "playable": 39,
+    "runtime": 47,
+    "boss_runtime": 47,
+    "model": 47
+  },
+  "models": [
+    {
+      "id": 47,
+      "stem": "MPLC047_Katakuri",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

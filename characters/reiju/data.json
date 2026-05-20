@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "reiju",
+  "display_name": "Reiju",
+  "aliases": [],
+  "ids": {
+    "playable": 33,
+    "runtime": 41,
+    "boss_runtime": 41,
+    "model": 41
+  },
+  "models": [
+    {
+      "id": 41,
+      "stem": "MPLC041_Reiju",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

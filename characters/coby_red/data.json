@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "coby_red",
+  "display_name": "Coby Red",
+  "aliases": [
+    "koby_red"
+  ],
+  "ids": {
+    "playable": 178,
+    "runtime": 74,
+    "boss_runtime": 100,
+    "model": 303
+  },
+  "models": [
+    {
+      "id": 303,
+      "stem": "MDLC064_Coby_RED",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

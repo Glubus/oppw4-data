@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "burgess",
+  "display_name": "Burgess",
+  "aliases": [],
+  "ids": {
+    "playable": 58,
+    "runtime": 125,
+    "boss_runtime": 99,
+    "model": 76
+  },
+  "models": [
+    {
+      "id": 76,
+      "stem": "MNPC025_Burgess",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "z_d",
+  "display_name": "Z",
+  "aliases": [
+    "z",
+    "zephyr"
+  ],
+  "ids": {
+    "playable": 195,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 327
+  },
+  "models": [
+    {
+      "id": 327,
+      "stem": "MDLC088_Z_D",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

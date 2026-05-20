@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "bartolomeo",
+  "display_name": "Bartolomeo",
+  "aliases": [],
+  "ids": {
+    "playable": 30,
+    "runtime": 37,
+    "boss_runtime": 37,
+    "model": 37
+  },
+  "models": [
+    {
+      "id": 37,
+      "stem": "MPLC037_Bartolomeo",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

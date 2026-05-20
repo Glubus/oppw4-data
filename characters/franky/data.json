@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "franky",
+  "display_name": "Franky",
+  "aliases": [],
+  "ids": {
+    "playable": 7,
+    "runtime": 7,
+    "boss_runtime": 7,
+    "model": 7
+  },
+  "models": [
+    {
+      "id": 7,
+      "stem": "MPLC007_Franky",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

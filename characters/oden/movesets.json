@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/movesets.schema.json",
+  "character_id": "oden",
+  "base": {
+    "linkdata_file": "LINKDATA_A",
+    "entry": 233
+  },
+  "variants": [],
+  "notes": []
+}

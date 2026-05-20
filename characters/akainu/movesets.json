@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/movesets.schema.json",
+  "character_id": "akainu",
+  "base": {
+    "linkdata_file": "LINKDATA_A",
+    "entry": 87
+  },
+  "variants": [],
+  "notes": []
+}

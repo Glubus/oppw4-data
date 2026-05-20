@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "perospero",
+  "display_name": "Perospero",
+  "aliases": [],
+  "ids": {
+    "playable": 68,
+    "runtime": 141,
+    "boss_runtime": 108,
+    "model": 92
+  },
+  "models": [
+    {
+      "id": 92,
+      "stem": "MNPC041_Perospero",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

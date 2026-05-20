@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "smoothie",
+  "display_name": "Smoothie",
+  "aliases": [],
+  "ids": {
+    "playable": 153,
+    "runtime": 60,
+    "boss_runtime": 281,
+    "model": 280
+  },
+  "models": [
+    {
+      "id": 280,
+      "stem": "MDLC041_Smoothie",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

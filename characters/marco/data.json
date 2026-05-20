@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "marco",
+  "display_name": "Marco",
+  "aliases": [],
+  "ids": {
+    "playable": 21,
+    "runtime": 24,
+    "boss_runtime": 24,
+    "model": 24
+  },
+  "models": [
+    {
+      "id": 24,
+      "stem": "MPLC024_Marco",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

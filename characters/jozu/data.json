@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "jozu",
+  "display_name": "Jozu",
+  "aliases": [],
+  "ids": {
+    "playable": 70,
+    "runtime": 114,
+    "boss_runtime": 88,
+    "model": 65
+  },
+  "models": [
+    {
+      "id": 65,
+      "stem": "MNPC014_Jozu",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

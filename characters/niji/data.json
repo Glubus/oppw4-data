@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "niji",
+  "display_name": "Niji",
+  "aliases": [],
+  "ids": {
+    "playable": 35,
+    "runtime": 43,
+    "boss_runtime": 43,
+    "model": 43
+  },
+  "models": [
+    {
+      "id": 43,
+      "stem": "MPLC043_Niji",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

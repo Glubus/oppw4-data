@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "eneru_a_d",
+  "display_name": "Eneru Amaru",
+  "aliases": [
+    "enel_amaru"
+  ],
+  "ids": {
+    "playable": 191,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 323
+  },
+  "models": [
+    {
+      "id": 323,
+      "stem": "MDLC084_Eneru_A_D",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

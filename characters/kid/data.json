@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "kid",
+  "display_name": "Eustass Kid",
+  "aliases": [
+    "eustass_kid",
+    "kidd"
+  ],
+  "ids": {
+    "playable": 41,
+    "runtime": 49,
+    "boss_runtime": 49,
+    "model": 49
+  },
+  "models": [
+    {
+      "id": 49,
+      "stem": "MPLC049_Kid",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

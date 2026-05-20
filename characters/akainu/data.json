@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "akainu",
+  "display_name": "Akainu",
+  "aliases": [
+    "sakazuki"
+  ],
+  "ids": {
+    "playable": 19,
+    "runtime": 20,
+    "boss_runtime": 20,
+    "model": 20
+  },
+  "models": [
+    {
+      "id": 20,
+      "stem": "MPLC020_Akainu",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

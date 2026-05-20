@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "robin",
+  "display_name": "Robin",
+  "aliases": [],
+  "ids": {
+    "playable": 6,
+    "runtime": 6,
+    "boss_runtime": 6,
+    "model": 6
+  },
+  "models": [
+    {
+      "id": 6,
+      "stem": "MPLC006_Robin",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

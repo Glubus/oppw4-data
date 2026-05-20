@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "zoro",
+  "display_name": "Roronoa Zoro",
+  "aliases": [
+    "roronoa_zoro",
+    "zorro"
+  ],
+  "ids": {
+    "playable": 1,
+    "runtime": 1,
+    "boss_runtime": 1,
+    "model": 1
+  },
+  "models": [
+    {
+      "id": 1,
+      "stem": "MPLC001_Zoro",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "ace",
+  "display_name": "Ace",
+  "aliases": [
+    "portgas_d_ace"
+  ],
+  "ids": {
+    "playable": 9,
+    "runtime": 9,
+    "boss_runtime": 9,
+    "model": 9
+  },
+  "models": [
+    {
+      "id": 9,
+      "stem": "MPLC009_Ace",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "luffy_snakeman",
+  "display_name": "Monkey D. Luffy Snakeman",
+  "aliases": [
+    "snakeman",
+    "luffy_snake_man"
+  ],
+  "ids": {
+    "playable": null,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": null
+  },
+  "models": [
+    {
+      "id": null,
+      "stem": "UNKNOWN_Luffy_Snakeman",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "luffy_n_oni",
+  "display_name": "Monkey D. Luffy (New Onigashima)",
+  "aliases": [],
+  "ids": {
+    "playable": 167,
+    "runtime": null,
+    "boss_runtime": null,
+    "model": 294
+  },
+  "models": [
+    {
+      "id": 294,
+      "stem": "MDLC055_Luffy_N_Oni",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

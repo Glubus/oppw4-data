@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "crocodile",
+  "display_name": "Crocodile",
+  "aliases": [],
+  "ids": {
+    "playable": 15,
+    "runtime": 15,
+    "boss_runtime": 15,
+    "model": 15
+  },
+  "models": [
+    {
+      "id": 15,
+      "stem": "MPLC015_Crocodile",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

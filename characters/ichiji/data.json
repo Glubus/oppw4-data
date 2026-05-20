@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "ichiji",
+  "display_name": "Ichiji",
+  "aliases": [],
+  "ids": {
+    "playable": 34,
+    "runtime": 42,
+    "boss_runtime": 42,
+    "model": 42
+  },
+  "models": [
+    {
+      "id": 42,
+      "stem": "MPLC042_Ichiji",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

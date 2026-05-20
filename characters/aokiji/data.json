@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "aokiji",
+  "display_name": "Aokiji",
+  "aliases": [
+    "kuzan"
+  ],
+  "ids": {
+    "playable": 18,
+    "runtime": 19,
+    "boss_runtime": 19,
+    "model": 19
+  },
+  "models": [
+    {
+      "id": 19,
+      "stem": "MPLC019_Aokiji",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

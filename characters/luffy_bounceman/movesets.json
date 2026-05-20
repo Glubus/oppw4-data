@@ -1,0 +1,10 @@
+{
+  "$schema": "../../schemas/movesets.schema.json",
+  "character_id": "luffy_bounceman",
+  "base": {
+    "linkdata_file": "LINKDATA_A",
+    "entry": 208
+  },
+  "variants": [],
+  "notes": []
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "drake",
+  "display_name": "Drake",
+  "aliases": [],
+  "ids": {
+    "playable": 158,
+    "runtime": 63,
+    "boss_runtime": 109,
+    "model": 284
+  },
+  "models": [
+    {
+      "id": 284,
+      "stem": "MDLC045_Drake_PC",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

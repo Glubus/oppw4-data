@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "yamato_hb",
+  "display_name": "Yamato Hybrid",
+  "aliases": [
+    "hybrid_yamato"
+  ],
+  "ids": {
+    "playable": 172,
+    "runtime": null,
+    "boss_runtime": 287,
+    "model": 298
+  },
+  "models": [
+    {
+      "id": 298,
+      "stem": "MDLC059_Yamato_HB",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

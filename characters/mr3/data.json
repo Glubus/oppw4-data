@@ -1,0 +1,22 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "mr3",
+  "display_name": "Mr. 3",
+  "aliases": [
+    "galdino"
+  ],
+  "ids": {
+    "playable": 50,
+    "runtime": 106,
+    "boss_runtime": 78,
+    "model": 57
+  },
+  "models": [
+    {
+      "id": 57,
+      "stem": "MNPC006_Mr3",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}

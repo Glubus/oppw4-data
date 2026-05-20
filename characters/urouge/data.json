@@ -1,0 +1,20 @@
+{
+  "$schema": "../../schemas/character.schema.json",
+  "id": "urouge",
+  "display_name": "Urouge",
+  "aliases": [],
+  "ids": {
+    "playable": 161,
+    "runtime": 65,
+    "boss_runtime": 284,
+    "model": 286
+  },
+  "models": [
+    {
+      "id": 286,
+      "stem": "MDLC047_Urouge",
+      "kind": "primary"
+    }
+  ],
+  "notes": []
+}
