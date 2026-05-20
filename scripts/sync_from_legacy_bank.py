@@ -138,6 +138,7 @@ def main():
         costume["model_id"] = character.get("model_id")
         costume.setdefault("slot", None)
         costume.setdefault("assets", [])
+        costume.setdefault("body_parts", [])
         costume.setdefault("notes", [])
         ensure_default_model_asset(costume, character)
         sync_movesets(character_dir, data, character)

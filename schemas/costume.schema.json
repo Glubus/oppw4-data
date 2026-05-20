@@ -33,6 +33,13 @@
         "$ref": "#/$defs/asset"
       }
     },
+    "body_parts": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/body_part"
+      },
+      "default": []
+    },
     "notes": {
       "type": "array",
       "items": {
@@ -95,6 +102,51 @@
           }
         }
       }
+    },
+    "body_part": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "assets"],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/body_part_id"
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/asset"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "body_part_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_][a-z0-9_-]*$",
+      "examples": [
+        "body",
+        "head",
+        "hair",
+        "face",
+        "left_arm",
+        "right_arm",
+        "left_leg",
+        "right_leg",
+        "weapon_01",
+        "weapon_02",
+        "weapon_left",
+        "weapon_right",
+        "accessory"
+      ]
     },
     "nullable_u16": {
       "type": ["integer", "null"],

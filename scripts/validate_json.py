@@ -55,16 +55,42 @@ def validate_costume(path, character_id, costume_id):
     require(isinstance(data.get("assets"), list), f"{rel}: assets must be an array")
     seen = set()
     for asset in data["assets"]:
-        key = (
-            asset.get("kind"),
-            asset.get("archive"),
-            asset.get("path"),
-            asset.get("hash"),
-            asset.get("file_type"),
-            asset.get("variant"),
-        )
+        key = asset_key(asset)
         require(key not in seen, f"{rel}: duplicate asset {key}")
         seen.add(key)
+    body_parts = data.get("body_parts", [])
+    require(isinstance(body_parts, list), f"{rel}: body_parts must be an array")
+    seen_parts = set()
+    for part in body_parts:
+        require(isinstance(part, dict), f"{rel}: body_parts entries must be objects")
+        part_id = part.get("id")
+        require(isinstance(part_id, str) and part_id, f"{rel}: body_part id is required")
+        require(part_id not in seen_parts, f"{rel}: duplicate body_part {part_id}")
+        seen_parts.add(part_id)
+        require(part.get("label"), f"{rel}: body_part {part_id} label is required")
+        require(
+            isinstance(part.get("assets"), list),
+            f"{rel}: body_part {part_id} assets must be an array",
+        )
+        seen_assets = set()
+        for asset in part["assets"]:
+            key = asset_key(asset)
+            require(
+                key not in seen_assets,
+                f"{rel}: body_part {part_id} duplicate asset {key}",
+            )
+            seen_assets.add(key)
+
+
+def asset_key(asset):
+    return (
+        asset.get("kind"),
+        asset.get("archive"),
+        asset.get("path"),
+        asset.get("hash"),
+        asset.get("file_type"),
+        asset.get("variant"),
+    )
 
 
 def validate_movesets(path, character_id):

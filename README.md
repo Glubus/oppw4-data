@@ -28,8 +28,13 @@ generated/
 `characters/<id>/data.json` owns stable identity metadata and points to costume
 asset files through `assets.costumes`.
 `characters/<id>/costumes/<costume>.json` owns known models, textures,
-portraits, UI files, materials, effects, sounds, voices, RDB references, and
-LinkData references for that costume.
+portraits, UI files, materials, effects, sounds, voices, body-part asset groups,
+RDB references, and LinkData references for that costume.
+Use optional `body_parts` entries for targetable texture/model pieces such as
+`body`, `left_arm`, `right_arm`, `weapon_01`, `weapon_left`, `weapon_right`, or
+other community-confirmed part names. Part ids are intentionally data-defined so
+characters with multiple weapons or unusual equipment can expose as many
+targetable pieces as needed.
 `characters/<id>/movesets.json` owns moveset references when known.
 `evidence.md` records where uncertain IDs or relationships came from.
 
