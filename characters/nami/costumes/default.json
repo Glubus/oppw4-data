@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/costume.schema.json",
+  "character_id": "nami",
+  "id": "default",
+  "label": "Default",
+  "slot": null,
+  "model_id": 2,
+  "assets": [
+    {
+      "kind": "model",
+      "label": "Default character model",
+      "variant": "default",
+      "archive": "CharacterEditor",
+      "path": "MPLC002_Nami.g1m",
+      "hash": null,
+      "file_type": "g1m",
+      "source": null,
+      "notes": []
+    }
+  ],
+  "notes": []
+}

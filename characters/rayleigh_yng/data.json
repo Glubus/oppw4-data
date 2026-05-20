@@ -11,13 +11,13 @@
     "boss_runtime": 116,
     "model": 305
   },
-  "models": [
-    {
-      "id": 305,
-      "stem": "MDLC066_Rayleigh_YNG",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

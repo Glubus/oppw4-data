@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/costume.schema.json",
+  "character_id": "luffy_n_gear5",
+  "id": "default",
+  "label": "Default",
+  "slot": null,
+  "model_id": 295,
+  "assets": [
+    {
+      "kind": "model",
+      "label": "Default character model",
+      "variant": "default",
+      "archive": "CharacterEditor",
+      "path": "MDLC056_Luffy_N_Gear5.g1m",
+      "hash": null,
+      "file_type": "g1m",
+      "source": null,
+      "notes": []
+    }
+  ],
+  "notes": []
+}

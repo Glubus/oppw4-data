@@ -11,13 +11,13 @@
     "boss_runtime": 19,
     "model": 19
   },
-  "models": [
-    {
-      "id": 19,
-      "stem": "MPLC019_Aokiji",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

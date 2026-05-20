@@ -13,13 +13,13 @@
     "boss_runtime": 46,
     "model": 46
   },
-  "models": [
-    {
-      "id": 46,
-      "stem": "MPLC046_Linlin",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

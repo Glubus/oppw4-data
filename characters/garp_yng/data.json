@@ -11,13 +11,13 @@
     "boss_runtime": 25,
     "model": 304
   },
-  "models": [
-    {
-      "id": 304,
-      "stem": "MDLC065_Garp_YNG",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

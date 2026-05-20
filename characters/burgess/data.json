@@ -9,13 +9,13 @@
     "boss_runtime": 99,
     "model": 76
   },
-  "models": [
-    {
-      "id": 76,
-      "stem": "MNPC025_Burgess",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

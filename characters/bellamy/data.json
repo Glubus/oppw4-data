@@ -9,13 +9,13 @@
     "boss_runtime": 94,
     "model": 71
   },
-  "models": [
-    {
-      "id": 71,
-      "stem": "MNPC020_Bellamy_NW",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

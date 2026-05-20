@@ -9,13 +9,13 @@
     "boss_runtime": null,
     "model": 17
   },
-  "models": [
-    {
-      "id": 17,
-      "stem": "MPLC017_Kuma",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

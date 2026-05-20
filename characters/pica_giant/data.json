@@ -9,13 +9,13 @@
     "boss_runtime": 104,
     "model": 83
   },
-  "models": [
-    {
-      "id": 83,
-      "stem": "MNPC032_PicaG",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

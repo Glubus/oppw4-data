@@ -9,13 +9,13 @@
     "boss_runtime": 30,
     "model": 30
   },
-  "models": [
-    {
-      "id": 30,
-      "stem": "MPLC030_Fujitora",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

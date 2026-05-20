@@ -11,13 +11,13 @@
     "boss_runtime": 100,
     "model": 77
   },
-  "models": [
-    {
-      "id": 77,
-      "stem": "MNPC026_Coby",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

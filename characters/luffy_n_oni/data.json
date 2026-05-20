@@ -9,13 +9,13 @@
     "boss_runtime": null,
     "model": 294
   },
-  "models": [
-    {
-      "id": 294,
-      "stem": "MDLC055_Luffy_N_Oni",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

@@ -12,13 +12,13 @@
     "boss_runtime": null,
     "model": 319
   },
-  "models": [
-    {
-      "id": 319,
-      "stem": "MDLC080_SSnake",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

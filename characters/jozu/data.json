@@ -9,13 +9,13 @@
     "boss_runtime": 88,
     "model": 65
   },
-  "models": [
-    {
-      "id": 65,
-      "stem": "MNPC014_Jozu",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

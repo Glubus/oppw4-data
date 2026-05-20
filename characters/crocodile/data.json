@@ -9,13 +9,13 @@
     "boss_runtime": 15,
     "model": 15
   },
-  "models": [
-    {
-      "id": 15,
-      "stem": "MPLC015_Crocodile",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

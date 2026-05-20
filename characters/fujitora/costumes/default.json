@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/costume.schema.json",
+  "character_id": "fujitora",
+  "id": "default",
+  "label": "Default",
+  "slot": null,
+  "model_id": 30,
+  "assets": [
+    {
+      "kind": "model",
+      "label": "Default character model",
+      "variant": "default",
+      "archive": "CharacterEditor",
+      "path": "MPLC030_Fujitora.g1m",
+      "hash": null,
+      "file_type": "g1m",
+      "source": null,
+      "notes": []
+    }
+  ],
+  "notes": []
+}

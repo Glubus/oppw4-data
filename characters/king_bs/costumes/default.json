@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/costume.schema.json",
+  "character_id": "king_bs",
+  "id": "default",
+  "label": "Default",
+  "slot": null,
+  "model_id": 329,
+  "assets": [
+    {
+      "kind": "model",
+      "label": "Default character model",
+      "variant": "default",
+      "archive": "CharacterEditor",
+      "path": "MDLC090_King_BS.g1m",
+      "hash": null,
+      "file_type": "g1m",
+      "source": null,
+      "notes": []
+    }
+  ],
+  "notes": []
+}

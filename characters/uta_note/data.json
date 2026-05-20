@@ -9,13 +9,13 @@
     "boss_runtime": null,
     "model": 310
   },
-  "models": [
-    {
-      "id": 310,
-      "stem": "MDLC071_Uta_Note",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

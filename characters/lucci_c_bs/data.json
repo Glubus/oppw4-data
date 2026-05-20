@@ -9,13 +9,13 @@
     "boss_runtime": null,
     "model": 313
   },
-  "models": [
-    {
-      "id": 313,
-      "stem": "MDLC074_Lucci_C_BS",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

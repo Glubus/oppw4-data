@@ -12,13 +12,13 @@
     "boss_runtime": 16,
     "model": 16
   },
-  "models": [
-    {
-      "id": 16,
-      "stem": "MPLC016_Teach",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

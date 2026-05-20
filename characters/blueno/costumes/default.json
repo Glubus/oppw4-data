@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/costume.schema.json",
+  "character_id": "blueno",
+  "id": "default",
+  "label": "Default",
+  "slot": null,
+  "model_id": 60,
+  "assets": [
+    {
+      "kind": "model",
+      "label": "Default character model",
+      "variant": "default",
+      "archive": "CharacterEditor",
+      "path": "MNPC009_Blueno.g1m",
+      "hash": null,
+      "file_type": "g1m",
+      "source": null,
+      "notes": []
+    }
+  ],
+  "notes": []
+}

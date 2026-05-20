@@ -9,13 +9,13 @@
     "boss_runtime": 289,
     "model": 301
   },
-  "models": [
-    {
-      "id": 301,
-      "stem": "MDLC062_Roger",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

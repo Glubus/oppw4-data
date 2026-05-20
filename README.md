@@ -13,20 +13,23 @@ be improved without recompiling the SDK.
 characters/
   law/
     data.json
+    costumes/
+      default.json
     movesets.json
     evidence.md
 schemas/
   character.schema.json
+  costume.schema.json
   movesets.schema.json
 generated/
   index.json
 ```
 
-`characters/<id>/data.json` owns stable identity and model metadata.
-It also has an `assets` list for known models, textures, portraits, UI files,
-materials, effects, sounds, voices, RDB references, and LinkData references.
-Assets can be grouped by `costume` and `variant` so related models, textures,
-portraits, voices, and UI files stay easy to navigate.
+`characters/<id>/data.json` owns stable identity metadata and points to costume
+asset files through `assets.costumes`.
+`characters/<id>/costumes/<costume>.json` owns known models, textures,
+portraits, UI files, materials, effects, sounds, voices, RDB references, and
+LinkData references for that costume.
 `characters/<id>/movesets.json` owns moveset references when known.
 `evidence.md` records where uncertain IDs or relationships came from.
 

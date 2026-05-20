@@ -9,13 +9,13 @@
     "boss_runtime": 28,
     "model": 28
   },
-  "models": [
-    {
-      "id": 28,
-      "stem": "MPLC028_Tashigi",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

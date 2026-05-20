@@ -12,13 +12,13 @@
     "boss_runtime": 0,
     "model": 295
   },
-  "models": [
-    {
-      "id": 295,
-      "stem": "MDLC056_Luffy_N_Gear5",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

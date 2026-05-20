@@ -9,13 +9,13 @@
     "boss_runtime": null,
     "model": 328
   },
-  "models": [
-    {
-      "id": 328,
-      "stem": "MDLC089_King",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

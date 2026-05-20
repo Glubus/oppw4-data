@@ -9,13 +9,13 @@
     "boss_runtime": 284,
     "model": 291
   },
-  "models": [
-    {
-      "id": 291,
-      "stem": "MDLC052_Urouge_Chg",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

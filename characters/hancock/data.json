@@ -11,13 +11,13 @@
     "boss_runtime": 10,
     "model": 10
   },
-  "models": [
-    {
-      "id": 10,
-      "stem": "MPLC010_Hancock",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

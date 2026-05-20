@@ -9,13 +9,13 @@
     "boss_runtime": 6,
     "model": 6
   },
-  "models": [
-    {
-      "id": 6,
-      "stem": "MPLC006_Robin",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

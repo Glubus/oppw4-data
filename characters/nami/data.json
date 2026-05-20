@@ -9,13 +9,13 @@
     "boss_runtime": 2,
     "model": 2
   },
-  "models": [
-    {
-      "id": 2,
-      "stem": "MPLC002_Nami",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

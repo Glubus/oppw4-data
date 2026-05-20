@@ -11,13 +11,13 @@
     "boss_runtime": null,
     "model": 321
   },
-  "models": [
-    {
-      "id": 321,
-      "stem": "MDLC082_Luffy_N_BNY",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

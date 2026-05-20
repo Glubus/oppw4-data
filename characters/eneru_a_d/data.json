@@ -11,13 +11,13 @@
     "boss_runtime": null,
     "model": 323
   },
-  "models": [
-    {
-      "id": 323,
-      "stem": "MDLC084_Eneru_A_D",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

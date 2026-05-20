@@ -11,13 +11,13 @@
     "boss_runtime": 36,
     "model": 302
   },
-  "models": [
-    {
-      "id": 302,
-      "stem": "MDLC063_Shanks_RED",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

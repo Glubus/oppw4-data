@@ -9,13 +9,13 @@
     "boss_runtime": 48,
     "model": 48
   },
-  "models": [
-    {
-      "id": 48,
-      "stem": "MPLC048_Kaido",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

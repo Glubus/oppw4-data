@@ -4,7 +4,7 @@
   "title": "OPPW4 Character",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "display_name", "aliases", "ids", "models", "assets"],
+  "required": ["id", "display_name", "aliases", "ids", "assets"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -44,40 +44,29 @@
         }
       }
     },
-    "models": {
-      "type": "array",
-      "minItems": 1,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": ["id", "stem", "kind"],
-        "properties": {
-          "id": {
-            "$ref": "#/$defs/nullable_u16"
-          },
-          "stem": {
-            "type": ["string", "null"]
-          },
-          "kind": {
-            "type": "string",
-            "enum": ["primary", "costume", "form", "npc", "unknown"]
-          },
-          "costume": {
-            "$ref": "#/$defs/costume_ref"
-          },
-          "notes": {
-            "type": "array",
-            "items": {
-              "type": "string"
+    "assets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["costumes"],
+      "properties": {
+        "costumes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "ref"],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-z0-9_][a-z0-9_-]*$"
+              },
+              "ref": {
+                "type": "string",
+                "pattern": "^costumes/[a-z0-9_][a-z0-9_-]*\\.json$"
+              }
             }
           }
         }
-      }
-    },
-    "assets": {
-      "type": "array",
-      "items": {
-        "$ref": "#/$defs/asset"
       }
     },
     "notes": {
@@ -88,101 +77,10 @@
     }
   },
   "$defs": {
-    "asset": {
-      "type": "object",
-      "additionalProperties": false,
-      "required": ["kind", "label"],
-      "properties": {
-        "kind": {
-          "type": "string",
-          "enum": [
-            "model",
-            "texture",
-            "portrait",
-            "ui",
-            "material",
-            "effect",
-            "sound",
-            "voice",
-            "rdb",
-            "linkdata",
-            "unknown"
-          ]
-        },
-        "label": {
-          "type": "string",
-          "minLength": 1
-        },
-        "costume": {
-          "$ref": "#/$defs/costume_ref"
-        },
-        "variant": {
-          "type": ["string", "null"],
-          "examples": ["default", "dressrosa", "wano", "onigashima", "film_red"]
-        },
-        "archive": {
-          "type": ["string", "null"],
-          "examples": ["CharacterEditor", "MaterialEditor", "ScreenLayout"]
-        },
-        "path": {
-          "type": ["string", "null"]
-        },
-        "hash": {
-          "type": ["string", "null"],
-          "pattern": "^0x[0-9a-fA-F]{8}$"
-        },
-        "file_type": {
-          "type": ["string", "null"],
-          "examples": ["g1m", "g1t", "g1a", "bin", "awb", "acb"]
-        },
-        "slot": {
-          "$ref": "#/$defs/nullable_u16"
-        },
-        "model_id": {
-          "$ref": "#/$defs/nullable_u16"
-        },
-        "source": {
-          "type": ["string", "null"]
-        },
-        "notes": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      }
-    },
     "nullable_u16": {
       "type": ["integer", "null"],
       "minimum": 0,
       "maximum": 65535
-    },
-    "costume_ref": {
-      "type": ["object", "null"],
-      "additionalProperties": false,
-      "required": ["id", "label"],
-      "properties": {
-        "id": {
-          "type": "string",
-          "pattern": "^[a-z0-9_][a-z0-9_-]*$"
-        },
-        "label": {
-          "type": "string",
-          "minLength": 1
-        },
-        "slot": {
-          "$ref": "#/$defs/nullable_u16"
-        },
-        "model_id": {
-          "$ref": "#/$defs/nullable_u16"
-        },
-        "notes": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          }
-        }
-      }
     }
   }
 }

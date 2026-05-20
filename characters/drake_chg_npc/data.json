@@ -9,13 +9,13 @@
     "boss_runtime": 109,
     "model": 93
   },
-  "models": [
-    {
-      "id": 93,
-      "stem": "MNPC042_Drake_Chg",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

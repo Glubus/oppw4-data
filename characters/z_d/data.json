@@ -12,13 +12,13 @@
     "boss_runtime": null,
     "model": 327
   },
-  "models": [
-    {
-      "id": 327,
-      "stem": "MDLC088_Z_D",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

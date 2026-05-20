@@ -9,13 +9,13 @@
     "boss_runtime": 80,
     "model": 58
   },
-  "models": [
-    {
-      "id": 58,
-      "stem": "MNPC007_Kaku",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

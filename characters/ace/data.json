@@ -11,13 +11,13 @@
     "boss_runtime": 9,
     "model": 9
   },
-  "models": [
-    {
-      "id": 9,
-      "stem": "MPLC009_Ace",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

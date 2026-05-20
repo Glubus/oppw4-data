@@ -12,13 +12,13 @@
     "boss_runtime": 49,
     "model": 49
   },
-  "models": [
-    {
-      "id": 49,
-      "stem": "MPLC049_Kid",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

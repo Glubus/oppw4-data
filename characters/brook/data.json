@@ -9,13 +9,13 @@
     "boss_runtime": 8,
     "model": 8
   },
-  "models": [
-    {
-      "id": 8,
-      "stem": "MPLC008_Brook",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

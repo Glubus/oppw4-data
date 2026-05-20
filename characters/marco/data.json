@@ -9,13 +9,13 @@
     "boss_runtime": 24,
     "model": 24
   },
-  "models": [
-    {
-      "id": 24,
-      "stem": "MPLC024_Marco",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

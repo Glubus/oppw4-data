@@ -11,13 +11,13 @@
     "boss_runtime": null,
     "model": 316
   },
-  "models": [
-    {
-      "id": 316,
-      "stem": "MDLC077_Bonney_G",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

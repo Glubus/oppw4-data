@@ -9,13 +9,13 @@
     "boss_runtime": 285,
     "model": 287
   },
-  "models": [
-    {
-      "id": 287,
-      "stem": "MDLC048_Kiku",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

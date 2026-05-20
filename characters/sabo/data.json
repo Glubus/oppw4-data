@@ -9,13 +9,13 @@
     "boss_runtime": 31,
     "model": 31
   },
-  "models": [
-    {
-      "id": 31,
-      "stem": "MPLC031_Sabo",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

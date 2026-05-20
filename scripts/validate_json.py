@@ -26,9 +26,28 @@ def validate_character(path):
     require(data.get("display_name"), f"{rel}: display_name is required")
     require(isinstance(data.get("aliases"), list), f"{rel}: aliases must be an array")
     require(isinstance(data.get("ids"), dict), f"{rel}: ids must be an object")
-    require(isinstance(data.get("models"), list) and data["models"], f"{rel}: models are required")
-    require(isinstance(data.get("assets"), list), f"{rel}: assets must be an array")
+    assets = data.get("assets")
+    require(isinstance(assets, dict), f"{rel}: assets must be an object")
+    costumes = assets.get("costumes")
+    require(isinstance(costumes, list), f"{rel}: assets.costumes must be an array")
+    for costume in costumes:
+        require(isinstance(costume, dict), f"{rel}: costume refs must be objects")
+        require(costume.get("id"), f"{rel}: costume id is required")
+        ref = costume.get("ref")
+        require(isinstance(ref, str), f"{rel}: costume ref is required")
+        costume_path = path.parent / ref
+        require(costume_path.is_file(), f"{rel}: costume ref missing: {ref}")
+        validate_costume(costume_path, data["id"], costume["id"])
     return data["id"]
+
+
+def validate_costume(path, character_id, costume_id):
+    data = load(path)
+    rel = path.relative_to(ROOT)
+    require(data.get("character_id") == character_id, f"{rel}: character_id mismatch")
+    require(data.get("id") == costume_id, f"{rel}: id mismatch")
+    require(data.get("label"), f"{rel}: label is required")
+    require(isinstance(data.get("assets"), list), f"{rel}: assets must be an array")
 
 
 def validate_movesets(path, character_id):
@@ -58,6 +77,7 @@ def main():
     try:
         load(ROOT / "generated" / "index.json")
         load(ROOT / "schemas" / "character.schema.json")
+        load(ROOT / "schemas" / "costume.schema.json")
         load(ROOT / "schemas" / "movesets.schema.json")
     except ValueError as error:
         errors.append(str(error))

@@ -12,13 +12,13 @@
     "boss_runtime": null,
     "model": null
   },
-  "models": [
-    {
-      "id": null,
-      "stem": "UNKNOWN_Luffy_Snakeman",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

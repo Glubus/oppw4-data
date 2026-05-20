@@ -9,13 +9,13 @@
     "boss_runtime": 83,
     "model": 60
   },
-  "models": [
-    {
-      "id": 60,
-      "stem": "MNPC009_Blueno",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

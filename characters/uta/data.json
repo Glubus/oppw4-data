@@ -9,13 +9,13 @@
     "boss_runtime": 288,
     "model": 299
   },
-  "models": [
-    {
-      "id": 299,
-      "stem": "MDLC060_Uta",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

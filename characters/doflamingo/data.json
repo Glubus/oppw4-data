@@ -12,13 +12,13 @@
     "boss_runtime": 27,
     "model": 27
   },
-  "models": [
-    {
-      "id": 27,
-      "stem": "MPLC027_Doflamingo",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

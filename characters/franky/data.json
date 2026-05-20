@@ -9,13 +9,13 @@
     "boss_runtime": 7,
     "model": 7
   },
-  "models": [
-    {
-      "id": 7,
-      "stem": "MPLC007_Franky",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

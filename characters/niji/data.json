@@ -9,13 +9,13 @@
     "boss_runtime": 43,
     "model": 43
   },
-  "models": [
-    {
-      "id": 43,
-      "stem": "MPLC043_Niji",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

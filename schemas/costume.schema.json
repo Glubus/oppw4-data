@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/costume.schema.json",
+  "title": "OPPW4 Character Costume",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["character_id", "id", "label", "assets"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "character_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_][a-z0-9_-]*$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_][a-z0-9_-]*$"
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slot": {
+      "$ref": "#/$defs/nullable_u16"
+    },
+    "model_id": {
+      "$ref": "#/$defs/nullable_u16"
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "label"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "model",
+            "texture",
+            "portrait",
+            "ui",
+            "material",
+            "effect",
+            "sound",
+            "voice",
+            "rdb",
+            "linkdata",
+            "unknown"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "variant": {
+          "type": ["string", "null"],
+          "examples": ["default", "dressrosa", "wano", "onigashima", "film_red"]
+        },
+        "archive": {
+          "type": ["string", "null"],
+          "examples": ["CharacterEditor", "MaterialEditor", "ScreenLayout"]
+        },
+        "path": {
+          "type": ["string", "null"]
+        },
+        "hash": {
+          "type": ["string", "null"],
+          "pattern": "^0x[0-9a-fA-F]{8}$"
+        },
+        "file_type": {
+          "type": ["string", "null"],
+          "examples": ["g1m", "g1t", "g1a", "bin", "awb", "acb"]
+        },
+        "source": {
+          "type": ["string", "null"]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "nullable_u16": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 65535
+    }
+  }
+}

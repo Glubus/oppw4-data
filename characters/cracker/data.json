@@ -9,13 +9,13 @@
     "boss_runtime": 282,
     "model": 281
   },
-  "models": [
-    {
-      "id": 281,
-      "stem": "MDLC042_Cracker",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

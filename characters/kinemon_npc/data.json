@@ -9,13 +9,13 @@
     "boss_runtime": null,
     "model": 80
   },
-  "models": [
-    {
-      "id": 80,
-      "stem": "MNPC029_Kinemon",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

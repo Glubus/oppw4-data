@@ -13,13 +13,13 @@
     "boss_runtime": 0,
     "model": 0
   },
-  "models": [
-    {
-      "id": 0,
-      "stem": "MPLC000_Luffy",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

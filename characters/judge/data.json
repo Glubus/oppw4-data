@@ -9,13 +9,13 @@
     "boss_runtime": 127,
     "model": 283
   },
-  "models": [
-    {
-      "id": 283,
-      "stem": "MDLC044_Judge_PC",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

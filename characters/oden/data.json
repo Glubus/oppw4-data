@@ -9,13 +9,13 @@
     "boss_runtime": 286,
     "model": 289
   },
-  "models": [
-    {
-      "id": 289,
-      "stem": "MDLC050_Oden",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

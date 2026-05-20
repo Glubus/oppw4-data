@@ -11,13 +11,13 @@
     "boss_runtime": 48,
     "model": 306
   },
-  "models": [
-    {
-      "id": 306,
-      "stem": "MDLC067_Kaido_D2",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

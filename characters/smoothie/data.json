@@ -9,13 +9,13 @@
     "boss_runtime": 281,
     "model": 280
   },
-  "models": [
-    {
-      "id": 280,
-      "stem": "MDLC041_Smoothie",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

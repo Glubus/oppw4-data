@@ -11,13 +11,13 @@
     "boss_runtime": 32,
     "model": 32
   },
-  "models": [
-    {
-      "id": 32,
-      "stem": "MPLC032_Lucci",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

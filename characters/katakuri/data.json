@@ -11,13 +11,13 @@
     "boss_runtime": 47,
     "model": 47
   },
-  "models": [
-    {
-      "id": 47,
-      "stem": "MPLC047_Katakuri",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

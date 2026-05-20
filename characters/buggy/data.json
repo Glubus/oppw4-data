@@ -9,13 +9,13 @@
     "boss_runtime": 13,
     "model": 13
   },
-  "models": [
-    {
-      "id": 13,
-      "stem": "MPLC013_Buggy",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

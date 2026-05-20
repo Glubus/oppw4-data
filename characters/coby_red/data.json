@@ -11,13 +11,13 @@
     "boss_runtime": 100,
     "model": 303
   },
-  "models": [
-    {
-      "id": 303,
-      "stem": "MDLC064_Coby_RED",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

@@ -11,13 +11,13 @@
     "boss_runtime": 14,
     "model": 14
   },
-  "models": [
-    {
-      "id": 14,
-      "stem": "MPLC014_Mihawk",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

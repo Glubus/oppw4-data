@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../schemas/costume.schema.json",
+  "character_id": "law",
+  "id": "default",
+  "label": "Default",
+  "slot": 1,
+  "model_id": 26,
+  "assets": [
+    {
+      "kind": "model",
+      "label": "Default character model",
+      "variant": "default",
+      "archive": "CharacterEditor",
+      "path": "MPLC026_Law.g1m",
+      "hash": null,
+      "file_type": "g1m",
+      "source": null,
+      "notes": [
+        "Initial structured example; path should be confirmed against extracted game data."
+      ]
+    },
+    {
+      "kind": "portrait",
+      "label": "Default portrait",
+      "variant": "default",
+      "archive": "ScreenLayout",
+      "path": null,
+      "hash": null,
+      "file_type": "g1t",
+      "source": null,
+      "notes": [
+        "Placeholder bucket for face/select/result portraits."
+      ]
+    }
+  ],
+  "notes": []
+}

@@ -9,13 +9,13 @@
     "boss_runtime": 23,
     "model": 23
   },
-  "models": [
-    {
-      "id": 23,
-      "stem": "MPLC023_Smoker",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

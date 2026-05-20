@@ -9,13 +9,13 @@
     "boss_runtime": 42,
     "model": 42
   },
-  "models": [
-    {
-      "id": 42,
-      "stem": "MPLC042_Ichiji",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

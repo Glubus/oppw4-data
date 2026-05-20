@@ -9,13 +9,13 @@
     "boss_runtime": 44,
     "model": 44
   },
-  "models": [
-    {
-      "id": 44,
-      "stem": "MPLC044_Yonji",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

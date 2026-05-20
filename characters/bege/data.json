@@ -11,13 +11,13 @@
     "boss_runtime": 45,
     "model": 45
   },
-  "models": [
-    {
-      "id": 45,
-      "stem": "MPLC045_Bege",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

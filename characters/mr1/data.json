@@ -11,13 +11,13 @@
     "boss_runtime": 93,
     "model": 70
   },
-  "models": [
-    {
-      "id": 70,
-      "stem": "MNPC019_Mr1",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

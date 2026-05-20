@@ -9,13 +9,13 @@
     "boss_runtime": null,
     "model": 79
   },
-  "models": [
-    {
-      "id": 79,
-      "stem": "MNPC028_Sengoku_Chg",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

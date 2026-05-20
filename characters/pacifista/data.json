@@ -9,13 +9,13 @@
     "boss_runtime": 85,
     "model": 62
   },
-  "models": [
-    {
-      "id": 62,
-      "stem": "MNPC011_Pacifista",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

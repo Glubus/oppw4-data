@@ -13,13 +13,13 @@
     "boss_runtime": 12,
     "model": 12
   },
-  "models": [
-    {
-      "id": 12,
-      "stem": "MPLC012_Newgate",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

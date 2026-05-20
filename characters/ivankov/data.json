@@ -9,13 +9,13 @@
     "boss_runtime": 35,
     "model": 35
   },
-  "models": [
-    {
-      "id": 35,
-      "stem": "MPLC035_Ivankov",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

@@ -9,13 +9,13 @@
     "boss_runtime": 288,
     "model": 300
   },
-  "models": [
-    {
-      "id": 300,
-      "stem": "MDLC061_Uta_Armor",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

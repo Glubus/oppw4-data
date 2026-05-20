@@ -9,13 +9,13 @@
     "boss_runtime": 37,
     "model": 37
   },
-  "models": [
-    {
-      "id": 37,
-      "stem": "MPLC037_Bartolomeo",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

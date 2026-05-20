@@ -11,13 +11,13 @@
     "boss_runtime": 18,
     "model": 18
   },
-  "models": [
-    {
-      "id": 18,
-      "stem": "MPLC018_Kizaru",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

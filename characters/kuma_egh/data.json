@@ -11,13 +11,13 @@
     "boss_runtime": null,
     "model": 320
   },
-  "models": [
-    {
-      "id": 320,
-      "stem": "MDLC081_Kuma_EGH",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

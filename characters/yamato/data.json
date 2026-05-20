@@ -9,13 +9,13 @@
     "boss_runtime": 287,
     "model": 297
   },
-  "models": [
-    {
-      "id": 297,
-      "stem": "MDLC058_Yamato",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

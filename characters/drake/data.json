@@ -9,13 +9,13 @@
     "boss_runtime": 109,
     "model": 284
   },
-  "models": [
-    {
-      "id": 284,
-      "stem": "MDLC045_Drake_PC",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

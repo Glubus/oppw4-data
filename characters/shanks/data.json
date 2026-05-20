@@ -9,13 +9,13 @@
     "boss_runtime": 36,
     "model": 36
   },
-  "models": [
-    {
-      "id": 36,
-      "stem": "MPLC036_Shanks",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

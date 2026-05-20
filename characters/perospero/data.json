@@ -9,13 +9,13 @@
     "boss_runtime": 108,
     "model": 92
   },
-  "models": [
-    {
-      "id": 92,
-      "stem": "MNPC041_Perospero",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

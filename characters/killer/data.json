@@ -9,13 +9,13 @@
     "boss_runtime": 283,
     "model": 285
   },
-  "models": [
-    {
-      "id": 285,
-      "stem": "MDLC046_Killer",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }

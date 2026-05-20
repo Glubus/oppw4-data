@@ -9,13 +9,13 @@
     "boss_runtime": 82,
     "model": 59
   },
-  "models": [
-    {
-      "id": 59,
-      "stem": "MNPC008_Jabra",
-      "kind": "primary"
-    }
-  ],
-  "assets": [],
-  "notes": []
+  "notes": [],
+  "assets": {
+    "costumes": [
+      {
+        "id": "default",
+        "ref": "costumes/default.json"
+      }
+    ]
+  }
 }
