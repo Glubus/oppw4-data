@@ -25,6 +25,8 @@ generated/
 `characters/<id>/data.json` owns stable identity and model metadata.
 It also has an `assets` list for known models, textures, portraits, UI files,
 materials, effects, sounds, voices, RDB references, and LinkData references.
+Assets can be grouped by `costume` and `variant` so related models, textures,
+portraits, voices, and UI files stay easy to navigate.
 `characters/<id>/movesets.json` owns moveset references when known.
 `evidence.md` records where uncertain IDs or relationships came from.
 

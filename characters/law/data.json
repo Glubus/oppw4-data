@@ -16,9 +16,61 @@
     {
       "id": 26,
       "stem": "MPLC026_Law",
-      "kind": "primary"
+      "kind": "primary",
+      "costume": {
+        "id": "default",
+        "label": "Default",
+        "slot": 1,
+        "model_id": 26,
+        "notes": []
+      }
     }
   ],
-  "assets": [],
+  "assets": [
+    {
+      "kind": "model",
+      "label": "Default character model",
+      "costume": {
+        "id": "default",
+        "label": "Default",
+        "slot": 1,
+        "model_id": 26,
+        "notes": []
+      },
+      "variant": "default",
+      "archive": "CharacterEditor",
+      "path": "MPLC026_Law.g1m",
+      "hash": null,
+      "file_type": "g1m",
+      "slot": 1,
+      "model_id": 26,
+      "source": null,
+      "notes": [
+        "Initial structured example; path should be confirmed against extracted game data."
+      ]
+    },
+    {
+      "kind": "portrait",
+      "label": "Default portrait",
+      "costume": {
+        "id": "default",
+        "label": "Default",
+        "slot": 1,
+        "model_id": 26,
+        "notes": []
+      },
+      "variant": "default",
+      "archive": "ScreenLayout",
+      "path": null,
+      "hash": null,
+      "file_type": "g1t",
+      "slot": 1,
+      "model_id": 26,
+      "source": null,
+      "notes": [
+        "Placeholder bucket for face/select/result portraits."
+      ]
+    }
+  ],
   "notes": []
 }
