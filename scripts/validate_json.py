@@ -48,6 +48,18 @@ def validate_costume(path, character_id, costume_id):
     require(data.get("id") == costume_id, f"{rel}: id mismatch")
     require(data.get("label"), f"{rel}: label is required")
     require(isinstance(data.get("assets"), list), f"{rel}: assets must be an array")
+    seen = set()
+    for asset in data["assets"]:
+        key = (
+            asset.get("kind"),
+            asset.get("archive"),
+            asset.get("path"),
+            asset.get("hash"),
+            asset.get("file_type"),
+            asset.get("variant"),
+        )
+        require(key not in seen, f"{rel}: duplicate asset {key}")
+        seen.add(key)
 
 
 def validate_movesets(path, character_id):

@@ -44,6 +44,12 @@ Regenerate the index:
 python3 scripts/generate_index.py
 ```
 
+Sync identity and default model assets from the legacy SDK bank:
+
+```sh
+python3 scripts/sync_from_legacy_bank.py
+```
+
 Validate JSON shape:
 
 ```sh
