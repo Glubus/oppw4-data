@@ -4,7 +4,7 @@
   "title": "OPPW4 Character",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "display_name", "aliases", "ids", "models"],
+  "required": ["id", "display_name", "aliases", "ids", "models", "assets"],
   "properties": {
     "$schema": {
       "type": "string"
@@ -71,6 +71,12 @@
         }
       }
     },
+    "assets": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    },
     "notes": {
       "type": "array",
       "items": {
@@ -79,6 +85,63 @@
     }
   },
   "$defs": {
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "label"],
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "model",
+            "texture",
+            "portrait",
+            "ui",
+            "material",
+            "effect",
+            "sound",
+            "voice",
+            "rdb",
+            "linkdata",
+            "unknown"
+          ]
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "archive": {
+          "type": ["string", "null"],
+          "examples": ["CharacterEditor", "MaterialEditor", "ScreenLayout"]
+        },
+        "path": {
+          "type": ["string", "null"]
+        },
+        "hash": {
+          "type": ["string", "null"],
+          "pattern": "^0x[0-9a-fA-F]{8}$"
+        },
+        "file_type": {
+          "type": ["string", "null"],
+          "examples": ["g1m", "g1t", "g1a", "bin", "awb", "acb"]
+        },
+        "slot": {
+          "$ref": "#/$defs/nullable_u16"
+        },
+        "model_id": {
+          "$ref": "#/$defs/nullable_u16"
+        },
+        "source": {
+          "type": ["string", "null"]
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
     "nullable_u16": {
       "type": ["integer", "null"],
       "minimum": 0,

@@ -23,6 +23,8 @@ generated/
 ```
 
 `characters/<id>/data.json` owns stable identity and model metadata.
+It also has an `assets` list for known models, textures, portraits, UI files,
+materials, effects, sounds, voices, RDB references, and LinkData references.
 `characters/<id>/movesets.json` owns moveset references when known.
 `evidence.md` records where uncertain IDs or relationships came from.
 

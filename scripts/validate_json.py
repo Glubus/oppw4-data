@@ -27,6 +27,7 @@ def validate_character(path):
     require(isinstance(data.get("aliases"), list), f"{rel}: aliases must be an array")
     require(isinstance(data.get("ids"), dict), f"{rel}: ids must be an object")
     require(isinstance(data.get("models"), list) and data["models"], f"{rel}: models are required")
+    require(isinstance(data.get("assets"), list), f"{rel}: assets must be an array")
     return data["id"]
 
 
