@@ -17,17 +17,15 @@ def main():
     for data_path in sorted(CHARACTERS.glob("*/data.json")):
         character_dir = data_path.parent
         data = read_json(data_path)
-        movesets_path = character_dir / "movesets.json"
-        entries.append(
-            {
-                "id": data["id"],
-                "display_name": data["display_name"],
-                "path": data_path.relative_to(ROOT).as_posix(),
-                "movesets": movesets_path.relative_to(ROOT).as_posix()
-                if movesets_path.is_file()
-                else None,
-            }
-        )
+        entry = {
+            "id": data["id"],
+            "display_name": data["display_name"],
+            "path": data_path.relative_to(ROOT).as_posix(),
+        }
+        movesets_ref = data.get("movesets", {}).get("ref")
+        if movesets_ref:
+            entry["movesets"] = (character_dir / movesets_ref).relative_to(ROOT).as_posix()
+        entries.append(entry)
 
     INDEX.parent.mkdir(parents=True, exist_ok=True)
     INDEX.write_text(

@@ -69,6 +69,17 @@
         }
       }
     },
+    "movesets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ref"],
+      "properties": {
+        "ref": {
+          "type": "string",
+          "const": "movesets.json"
+        }
+      }
+    },
     "notes": {
       "type": "array",
       "items": {

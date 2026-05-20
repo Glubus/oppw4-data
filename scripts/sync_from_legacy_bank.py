@@ -6,6 +6,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 LEGACY_BANK = ROOT.parent / "oppw4-sdk" / "crates" / "character-bank" / "data" / "characters.json"
 
+# The legacy SDK bank still carries a few ambiguous prototype assignments.
+# Keep known corrections here until the legacy embedded bank is replaced by this
+# data repository.
+MOVESET_ENTRY_OVERRIDES = {
+    "garp": None,
+}
+
 
 def read_json(path):
     return json.loads(path.read_text(encoding="utf-8"))
@@ -54,6 +61,30 @@ def ensure_default_model_asset(costume, character):
     key = asset_key(model)
     if not any(asset_key(asset) == key for asset in costume["assets"]):
         costume["assets"].insert(0, model)
+
+
+def sync_movesets(character_dir, data, character):
+    character_id = character["canonical"]
+    entry = MOVESET_ENTRY_OVERRIDES.get(character_id, character.get("moveset_linkdata_entry"))
+    movesets_path = character_dir / "movesets.json"
+    if entry is None:
+        data.pop("movesets", None)
+        if movesets_path.exists():
+            movesets_path.unlink()
+        return
+
+    data["movesets"] = {"ref": "movesets.json"}
+    movesets = {
+        "$schema": "../../schemas/movesets.schema.json",
+        "character_id": character_id,
+        "base": {
+            "linkdata_file": "LINKDATA_A",
+            "entry": entry,
+        },
+        "variants": [],
+        "notes": [],
+    }
+    write_json(movesets_path, movesets)
 
 
 def main():
@@ -109,6 +140,7 @@ def main():
         costume.setdefault("assets", [])
         costume.setdefault("notes", [])
         ensure_default_model_asset(costume, character)
+        sync_movesets(character_dir, data, character)
 
         write_json(data_path, data)
         write_json(costume_path, costume)

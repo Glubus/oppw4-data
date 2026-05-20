@@ -38,6 +38,11 @@ def validate_character(path):
         costume_path = path.parent / ref
         require(costume_path.is_file(), f"{rel}: costume ref missing: {ref}")
         validate_costume(costume_path, data["id"], costume["id"])
+    movesets = data.get("movesets")
+    if movesets is not None:
+        require(isinstance(movesets, dict), f"{rel}: movesets must be an object")
+        require(movesets.get("ref") == "movesets.json", f"{rel}: movesets.ref must be movesets.json")
+        require((path.parent / "movesets.json").is_file(), f"{rel}: movesets ref missing")
     return data["id"]
 
 

@@ -20,5 +20,8 @@
         "ref": "costumes/default.json"
       }
     ]
+  },
+  "movesets": {
+    "ref": "movesets.json"
   }
 }

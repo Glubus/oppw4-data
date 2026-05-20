@@ -21,116 +21,97 @@
     {
       "id": "bartolomeo",
       "display_name": "Bartolomeo",
-      "path": "characters/bartolomeo/data.json",
-      "movesets": null
+      "path": "characters/bartolomeo/data.json"
     },
     {
       "id": "bege",
       "display_name": "Bege",
-      "path": "characters/bege/data.json",
-      "movesets": null
+      "path": "characters/bege/data.json"
     },
     {
       "id": "bellamy",
       "display_name": "Bellamy",
-      "path": "characters/bellamy/data.json",
-      "movesets": null
+      "path": "characters/bellamy/data.json"
     },
     {
       "id": "blueno",
       "display_name": "Blueno",
-      "path": "characters/blueno/data.json",
-      "movesets": null
+      "path": "characters/blueno/data.json"
     },
     {
       "id": "bonney_egh",
       "display_name": "Bonney",
-      "path": "characters/bonney_egh/data.json",
-      "movesets": null
+      "path": "characters/bonney_egh/data.json"
     },
     {
       "id": "bonney_frf",
       "display_name": "Bonney Future",
-      "path": "characters/bonney_frf/data.json",
-      "movesets": null
+      "path": "characters/bonney_frf/data.json"
     },
     {
       "id": "bonney_g",
       "display_name": "Bonney Gear",
-      "path": "characters/bonney_g/data.json",
-      "movesets": null
+      "path": "characters/bonney_g/data.json"
     },
     {
       "id": "brook",
       "display_name": "Brook",
-      "path": "characters/brook/data.json",
-      "movesets": null
+      "path": "characters/brook/data.json"
     },
     {
       "id": "buggy",
       "display_name": "Buggy",
-      "path": "characters/buggy/data.json",
-      "movesets": null
+      "path": "characters/buggy/data.json"
     },
     {
       "id": "burgess",
       "display_name": "Burgess",
-      "path": "characters/burgess/data.json",
-      "movesets": null
+      "path": "characters/burgess/data.json"
     },
     {
       "id": "carrot",
       "display_name": "Carrot",
-      "path": "characters/carrot/data.json",
-      "movesets": null
+      "path": "characters/carrot/data.json"
     },
     {
       "id": "cavendish",
       "display_name": "Cavendish",
-      "path": "characters/cavendish/data.json",
-      "movesets": null
+      "path": "characters/cavendish/data.json"
     },
     {
       "id": "chopper",
       "display_name": "Chopper",
-      "path": "characters/chopper/data.json",
-      "movesets": null
+      "path": "characters/chopper/data.json"
     },
     {
       "id": "coby",
       "display_name": "Coby",
-      "path": "characters/coby/data.json",
-      "movesets": null
+      "path": "characters/coby/data.json"
     },
     {
       "id": "coby_red",
       "display_name": "Coby Red",
-      "path": "characters/coby_red/data.json",
-      "movesets": null
+      "path": "characters/coby_red/data.json"
     },
     {
       "id": "cracker",
       "display_name": "Cracker",
-      "path": "characters/cracker/data.json",
-      "movesets": null
+      "path": "characters/cracker/data.json"
     },
     {
       "id": "cracker_b",
       "display_name": "Cracker B",
-      "path": "characters/cracker_b/data.json",
-      "movesets": null
+      "path": "characters/cracker_b/data.json"
     },
     {
       "id": "crocodile",
       "display_name": "Crocodile",
-      "path": "characters/crocodile/data.json",
-      "movesets": null
+      "path": "characters/crocodile/data.json"
     },
     {
       "id": "diamante",
       "display_name": "Diamante",
-      "path": "characters/diamante/data.json",
-      "movesets": null
+      "path": "characters/diamante/data.json"
     },
     {
       "id": "doflamingo",
@@ -141,56 +122,47 @@
     {
       "id": "drake",
       "display_name": "Drake",
-      "path": "characters/drake/data.json",
-      "movesets": null
+      "path": "characters/drake/data.json"
     },
     {
       "id": "drake_chg",
       "display_name": "Drake Chg",
-      "path": "characters/drake_chg/data.json",
-      "movesets": null
+      "path": "characters/drake_chg/data.json"
     },
     {
       "id": "drake_chg_npc",
       "display_name": "Drake Change NPC",
-      "path": "characters/drake_chg_npc/data.json",
-      "movesets": null
+      "path": "characters/drake_chg_npc/data.json"
     },
     {
       "id": "eneru_a_d",
       "display_name": "Eneru Amaru",
-      "path": "characters/eneru_a_d/data.json",
-      "movesets": null
+      "path": "characters/eneru_a_d/data.json"
     },
     {
       "id": "eneru_d",
       "display_name": "Eneru Divine",
-      "path": "characters/eneru_d/data.json",
-      "movesets": null
+      "path": "characters/eneru_d/data.json"
     },
     {
       "id": "eneru_th_b",
       "display_name": "Eneru Thunder Black",
-      "path": "characters/eneru_th_b/data.json",
-      "movesets": null
+      "path": "characters/eneru_th_b/data.json"
     },
     {
       "id": "eneru_th_d",
       "display_name": "Eneru Thunder Divine",
-      "path": "characters/eneru_th_d/data.json",
-      "movesets": null
+      "path": "characters/eneru_th_d/data.json"
     },
     {
       "id": "eneru_th_w",
       "display_name": "Eneru Thunder White",
-      "path": "characters/eneru_th_w/data.json",
-      "movesets": null
+      "path": "characters/eneru_th_w/data.json"
     },
     {
       "id": "franky",
       "display_name": "Franky",
-      "path": "characters/franky/data.json",
-      "movesets": null
+      "path": "characters/franky/data.json"
     },
     {
       "id": "fujitora",
@@ -201,8 +173,7 @@
     {
       "id": "garp",
       "display_name": "Monkey D. Garp",
-      "path": "characters/garp/data.json",
-      "movesets": "characters/garp/movesets.json"
+      "path": "characters/garp/data.json"
     },
     {
       "id": "garp_yng",
@@ -213,62 +184,52 @@
     {
       "id": "gatling_n",
       "display_name": "Gatling N",
-      "path": "characters/gatling_n/data.json",
-      "movesets": null
+      "path": "characters/gatling_n/data.json"
     },
     {
       "id": "hancock",
       "display_name": "Boa Hancock",
-      "path": "characters/hancock/data.json",
-      "movesets": null
+      "path": "characters/hancock/data.json"
     },
     {
       "id": "hawkins",
       "display_name": "Hawkins",
-      "path": "characters/hawkins/data.json",
-      "movesets": null
+      "path": "characters/hawkins/data.json"
     },
     {
       "id": "ichiji",
       "display_name": "Ichiji",
-      "path": "characters/ichiji/data.json",
-      "movesets": null
+      "path": "characters/ichiji/data.json"
     },
     {
       "id": "ivankov",
       "display_name": "Ivankov",
-      "path": "characters/ivankov/data.json",
-      "movesets": null
+      "path": "characters/ivankov/data.json"
     },
     {
       "id": "jabra",
       "display_name": "Jabra",
-      "path": "characters/jabra/data.json",
-      "movesets": null
+      "path": "characters/jabra/data.json"
     },
     {
       "id": "jack_chg",
       "display_name": "Jack Change",
-      "path": "characters/jack_chg/data.json",
-      "movesets": null
+      "path": "characters/jack_chg/data.json"
     },
     {
       "id": "jimbei",
       "display_name": "Jimbei",
-      "path": "characters/jimbei/data.json",
-      "movesets": null
+      "path": "characters/jimbei/data.json"
     },
     {
       "id": "jozu",
       "display_name": "Jozu",
-      "path": "characters/jozu/data.json",
-      "movesets": null
+      "path": "characters/jozu/data.json"
     },
     {
       "id": "judge",
       "display_name": "Judge",
-      "path": "characters/judge/data.json",
-      "movesets": null
+      "path": "characters/judge/data.json"
     },
     {
       "id": "kaido",
@@ -285,14 +246,12 @@
     {
       "id": "kaido_hb",
       "display_name": "Kaido Hybrid",
-      "path": "characters/kaido_hb/data.json",
-      "movesets": null
+      "path": "characters/kaido_hb/data.json"
     },
     {
       "id": "kaku",
       "display_name": "Kaku",
-      "path": "characters/kaku/data.json",
-      "movesets": null
+      "path": "characters/kaku/data.json"
     },
     {
       "id": "katakuri",
@@ -303,8 +262,7 @@
     {
       "id": "kid",
       "display_name": "Eustass Kid",
-      "path": "characters/kid/data.json",
-      "movesets": null
+      "path": "characters/kid/data.json"
     },
     {
       "id": "kiku",
@@ -315,38 +273,32 @@
     {
       "id": "killer",
       "display_name": "Killer",
-      "path": "characters/killer/data.json",
-      "movesets": null
+      "path": "characters/killer/data.json"
     },
     {
       "id": "kinemon",
       "display_name": "Kinemon",
-      "path": "characters/kinemon/data.json",
-      "movesets": null
+      "path": "characters/kinemon/data.json"
     },
     {
       "id": "kinemon_npc",
       "display_name": "Kinemon NPC",
-      "path": "characters/kinemon_npc/data.json",
-      "movesets": null
+      "path": "characters/kinemon_npc/data.json"
     },
     {
       "id": "king",
       "display_name": "King",
-      "path": "characters/king/data.json",
-      "movesets": null
+      "path": "characters/king/data.json"
     },
     {
       "id": "king_bs",
       "display_name": "King Beast",
-      "path": "characters/king_bs/data.json",
-      "movesets": null
+      "path": "characters/king_bs/data.json"
     },
     {
       "id": "king_dr",
       "display_name": "King Dragon",
-      "path": "characters/king_dr/data.json",
-      "movesets": null
+      "path": "characters/king_dr/data.json"
     },
     {
       "id": "kizaru",
@@ -357,14 +309,12 @@
     {
       "id": "kuma",
       "display_name": "Kuma",
-      "path": "characters/kuma/data.json",
-      "movesets": null
+      "path": "characters/kuma/data.json"
     },
     {
       "id": "kuma_egh",
       "display_name": "Kuma Egghead",
-      "path": "characters/kuma_egh/data.json",
-      "movesets": null
+      "path": "characters/kuma_egh/data.json"
     },
     {
       "id": "law",
@@ -387,20 +337,17 @@
     {
       "id": "lucci",
       "display_name": "Lucci",
-      "path": "characters/lucci/data.json",
-      "movesets": null
+      "path": "characters/lucci/data.json"
     },
     {
       "id": "lucci_c_bs",
       "display_name": "Lucci Beast",
-      "path": "characters/lucci_c_bs/data.json",
-      "movesets": null
+      "path": "characters/lucci_c_bs/data.json"
     },
     {
       "id": "lucci_cp0",
       "display_name": "Lucci CP0",
-      "path": "characters/lucci_cp0/data.json",
-      "movesets": null
+      "path": "characters/lucci_cp0/data.json"
     },
     {
       "id": "luffy",
@@ -417,26 +364,22 @@
     {
       "id": "luffy_n_bny",
       "display_name": "Monkey D. Luffy Bonney",
-      "path": "characters/luffy_n_bny/data.json",
-      "movesets": null
+      "path": "characters/luffy_n_bny/data.json"
     },
     {
       "id": "luffy_n_gear5",
       "display_name": "Monkey D. Luffy Gear 5",
-      "path": "characters/luffy_n_gear5/data.json",
-      "movesets": null
+      "path": "characters/luffy_n_gear5/data.json"
     },
     {
       "id": "luffy_n_oni",
       "display_name": "Monkey D. Luffy (New Onigashima)",
-      "path": "characters/luffy_n_oni/data.json",
-      "movesets": null
+      "path": "characters/luffy_n_oni/data.json"
     },
     {
       "id": "luffy_oni",
       "display_name": "Monkey D. Luffy (Onigashima)",
-      "path": "characters/luffy_oni/data.json",
-      "movesets": null
+      "path": "characters/luffy_oni/data.json"
     },
     {
       "id": "luffy_snakeman",
@@ -459,26 +402,22 @@
     {
       "id": "mr1",
       "display_name": "Mr. 1",
-      "path": "characters/mr1/data.json",
-      "movesets": null
+      "path": "characters/mr1/data.json"
     },
     {
       "id": "mr2",
       "display_name": "Mr. 2",
-      "path": "characters/mr2/data.json",
-      "movesets": null
+      "path": "characters/mr2/data.json"
     },
     {
       "id": "mr3",
       "display_name": "Mr. 3",
-      "path": "characters/mr3/data.json",
-      "movesets": null
+      "path": "characters/mr3/data.json"
     },
     {
       "id": "nami",
       "display_name": "Nami",
-      "path": "characters/nami/data.json",
-      "movesets": null
+      "path": "characters/nami/data.json"
     },
     {
       "id": "newgate",
@@ -489,8 +428,7 @@
     {
       "id": "niji",
       "display_name": "Niji",
-      "path": "characters/niji/data.json",
-      "movesets": null
+      "path": "characters/niji/data.json"
     },
     {
       "id": "oden",
@@ -501,26 +439,22 @@
     {
       "id": "pacifista",
       "display_name": "Pacifista",
-      "path": "characters/pacifista/data.json",
-      "movesets": null
+      "path": "characters/pacifista/data.json"
     },
     {
       "id": "perospero",
       "display_name": "Perospero",
-      "path": "characters/perospero/data.json",
-      "movesets": null
+      "path": "characters/perospero/data.json"
     },
     {
       "id": "pica",
       "display_name": "Pica",
-      "path": "characters/pica/data.json",
-      "movesets": null
+      "path": "characters/pica/data.json"
     },
     {
       "id": "pica_giant",
       "display_name": "Pica Giant",
-      "path": "characters/pica_giant/data.json",
-      "movesets": null
+      "path": "characters/pica_giant/data.json"
     },
     {
       "id": "rayleigh_yng",
@@ -531,20 +465,17 @@
     {
       "id": "reiju",
       "display_name": "Reiju",
-      "path": "characters/reiju/data.json",
-      "movesets": null
+      "path": "characters/reiju/data.json"
     },
     {
       "id": "robin",
       "display_name": "Robin",
-      "path": "characters/robin/data.json",
-      "movesets": null
+      "path": "characters/robin/data.json"
     },
     {
       "id": "roger",
       "display_name": "Roger",
-      "path": "characters/roger/data.json",
-      "movesets": null
+      "path": "characters/roger/data.json"
     },
     {
       "id": "sabo",
@@ -561,8 +492,7 @@
     {
       "id": "sengoku_chg",
       "display_name": "Sengoku Change",
-      "path": "characters/sengoku_chg/data.json",
-      "movesets": null
+      "path": "characters/sengoku_chg/data.json"
     },
     {
       "id": "shanks",
@@ -573,32 +503,27 @@
     {
       "id": "shanks_red",
       "display_name": "Shanks (Red)",
-      "path": "characters/shanks_red/data.json",
-      "movesets": null
+      "path": "characters/shanks_red/data.json"
     },
     {
       "id": "smoker",
       "display_name": "Smoker",
-      "path": "characters/smoker/data.json",
-      "movesets": null
+      "path": "characters/smoker/data.json"
     },
     {
       "id": "smoothie",
       "display_name": "Smoothie",
-      "path": "characters/smoothie/data.json",
-      "movesets": null
+      "path": "characters/smoothie/data.json"
     },
     {
       "id": "ssnake",
       "display_name": "S-Snake",
-      "path": "characters/ssnake/data.json",
-      "movesets": null
+      "path": "characters/ssnake/data.json"
     },
     {
       "id": "tashigi",
       "display_name": "Tashigi",
-      "path": "characters/tashigi/data.json",
-      "movesets": null
+      "path": "characters/tashigi/data.json"
     },
     {
       "id": "teach",
@@ -615,62 +540,52 @@
     {
       "id": "urouge_chg",
       "display_name": "Urouge Chg",
-      "path": "characters/urouge_chg/data.json",
-      "movesets": null
+      "path": "characters/urouge_chg/data.json"
     },
     {
       "id": "usopp",
       "display_name": "Usopp",
-      "path": "characters/usopp/data.json",
-      "movesets": null
+      "path": "characters/usopp/data.json"
     },
     {
       "id": "uta",
       "display_name": "Uta",
-      "path": "characters/uta/data.json",
-      "movesets": null
+      "path": "characters/uta/data.json"
     },
     {
       "id": "uta_armor",
       "display_name": "Uta Armor",
-      "path": "characters/uta_armor/data.json",
-      "movesets": null
+      "path": "characters/uta_armor/data.json"
     },
     {
       "id": "uta_note",
       "display_name": "Uta Note",
-      "path": "characters/uta_note/data.json",
-      "movesets": null
+      "path": "characters/uta_note/data.json"
     },
     {
       "id": "yamato",
       "display_name": "Yamato",
-      "path": "characters/yamato/data.json",
-      "movesets": null
+      "path": "characters/yamato/data.json"
     },
     {
       "id": "yamato_hb",
       "display_name": "Yamato Hybrid",
-      "path": "characters/yamato_hb/data.json",
-      "movesets": null
+      "path": "characters/yamato_hb/data.json"
     },
     {
       "id": "yamato_s",
       "display_name": "Yamato S",
-      "path": "characters/yamato_s/data.json",
-      "movesets": null
+      "path": "characters/yamato_s/data.json"
     },
     {
       "id": "yonji",
       "display_name": "Yonji",
-      "path": "characters/yonji/data.json",
-      "movesets": null
+      "path": "characters/yonji/data.json"
     },
     {
       "id": "z_d",
       "display_name": "Z",
-      "path": "characters/z_d/data.json",
-      "movesets": null
+      "path": "characters/z_d/data.json"
     },
     {
       "id": "zoro",
