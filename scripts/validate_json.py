@@ -106,6 +106,45 @@ def validate_movesets(path, character_id):
     require(isinstance(base.get("entry"), int), f"{rel}: base.entry must be an integer")
 
 
+def validate_mission(path):
+    data = load(path)
+    rel = path.relative_to(ROOT)
+    require(data.get("id") == path.parent.name, f"{rel}: id must match folder name")
+    require(isinstance(data.get("aliases"), list), f"{rel}: aliases must be an array")
+    ids = data.get("ids")
+    require(isinstance(ids, dict), f"{rel}: ids must be an object")
+    require(isinstance(ids.get("mission"), int), f"{rel}: ids.mission must be an integer")
+    require(isinstance(data.get("modes"), list), f"{rel}: modes must be an array")
+    for key, expected_ref in (
+        ("difficulties", "difficulties.json"),
+        ("rank_conditions", "rank_conditions.json"),
+        ("rewards", "rewards.json"),
+    ):
+        ref_block = data.get(key)
+        require(isinstance(ref_block, dict), f"{rel}: {key} must be an object")
+        require(ref_block.get("ref") == expected_ref, f"{rel}: {key}.ref must be {expected_ref}")
+        ref_path = path.parent / expected_ref
+        require(ref_path.is_file(), f"{rel}: {key} ref missing")
+        validate_mission_detail(ref_path, data["id"], key)
+    return data["id"]
+
+
+def validate_mission_detail(path, mission_id, key):
+    data = load(path)
+    rel = path.relative_to(ROOT)
+    require(data.get("mission_id") == mission_id, f"{rel}: mission_id mismatch")
+    require(isinstance(data.get("observations"), list), f"{rel}: observations must be an array")
+    for index, observation in enumerate(data["observations"]):
+        require(isinstance(observation, dict), f"{rel}: observation {index} must be an object")
+        require(observation.get("source"), f"{rel}: observation {index} source is required")
+        require(isinstance(observation.get("notes"), list), f"{rel}: observation {index} notes must be an array")
+        if key == "rank_conditions":
+            require(isinstance(observation.get("rank_row"), int), f"{rel}: observation {index} rank_row must be an integer")
+            require(isinstance(observation.get("condition_row"), int), f"{rel}: observation {index} condition_row must be an integer")
+        if key == "rewards":
+            require(isinstance(observation.get("items"), list), f"{rel}: observation {index} items must be an array")
+
+
 def main():
     errors = []
     for data_path in sorted((ROOT / "characters").glob("*/data.json")):
@@ -117,11 +156,21 @@ def main():
         except ValueError as error:
             errors.append(str(error))
 
+    for data_path in sorted((ROOT / "missions").glob("*/data.json")):
+        try:
+            validate_mission(data_path)
+        except ValueError as error:
+            errors.append(str(error))
+
     try:
         load(ROOT / "generated" / "index.json")
         load(ROOT / "schemas" / "character.schema.json")
         load(ROOT / "schemas" / "costume.schema.json")
         load(ROOT / "schemas" / "movesets.schema.json")
+        load(ROOT / "schemas" / "mission.schema.json")
+        load(ROOT / "schemas" / "mission_difficulties.schema.json")
+        load(ROOT / "schemas" / "mission_rank_conditions.schema.json")
+        load(ROOT / "schemas" / "mission_rewards.schema.json")
     except ValueError as error:
         errors.append(str(error))
 

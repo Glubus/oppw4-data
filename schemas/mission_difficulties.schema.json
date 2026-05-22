@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/mission_difficulties.schema.json",
+  "title": "OPPW4 Mission Difficulties",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["mission_id", "observations"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "mission_id": {
+      "type": "string",
+      "pattern": "^mission_[0-9]{4}$"
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["difficulty", "difficulty_id", "mode", "runtime", "difficulty_row", "source", "notes"],
+        "properties": {
+          "difficulty": {
+            "type": "string"
+          },
+          "difficulty_id": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255
+          },
+          "mode": {
+            "type": "string"
+          },
+          "runtime": {
+            "type": "object"
+          },
+          "difficulty_row": {
+            "type": "object"
+          },
+          "source": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

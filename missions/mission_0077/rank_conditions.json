@@ -1,0 +1,51 @@
+{
+  "$schema": "../../schemas/mission_rank_conditions.schema.json",
+  "mission_id": "mission_0077",
+  "observations": [
+    {
+      "mode": "treasure_log",
+      "difficulty": "normal",
+      "rank_row": 27,
+      "condition_row": 27,
+      "fixed_rank_table": {
+        "row_stride": "0x44",
+        "condition_row_field": "0x16"
+      },
+      "condition_table": {
+        "base_offset": "0xc43c",
+        "row_stride": "0x34",
+        "raw_fields": {
+          "0x04": 2000,
+          "0x08": 5000,
+          "0x0c": 80,
+          "0x10": 80,
+          "0x18": 7000,
+          "0x1c": 9000,
+          "0x20": 720,
+          "0x24": 720,
+          "0x2e": 28,
+          "0x30": 3,
+          "0x32": 306
+        }
+      },
+      "result_fields": {
+        "raw": [
+          27,
+          1110,
+          1139292992,
+          3,
+          5
+        ],
+        "known": {
+          "kill_count": 1110,
+          "clear_time_seconds": 464.4629
+        }
+      },
+      "source": "sdk.runtime log 2026-05-21-221212",
+      "notes": [
+        "User reported 1110 kills, rank A, and 7:44.46 clear time.",
+        "1139292992 decodes as f32 clear time."
+      ]
+    }
+  ]
+}

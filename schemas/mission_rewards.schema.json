@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/mission_rewards.schema.json",
+  "title": "OPPW4 Mission Rewards",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["mission_id", "observations"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "mission_id": {
+      "type": "string",
+      "pattern": "^mission_[0-9]{4}$"
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["mode", "difficulty", "berry", "items", "crew_points", "souls", "source", "notes"],
+        "properties": {
+          "mode": {
+            "type": "string"
+          },
+          "difficulty": {
+            "type": "string"
+          },
+          "berry": {
+            "type": "object"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          },
+          "crew_points": {
+            "type": "object"
+          },
+          "souls": {
+            "type": "object"
+          },
+          "source": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

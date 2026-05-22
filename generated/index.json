@@ -593,5 +593,25 @@
       "path": "characters/zoro/data.json",
       "movesets": "characters/zoro/movesets.json"
     }
+  ],
+  "missions": [
+    {
+      "id": "mission_0035",
+      "display_name": null,
+      "path": "missions/mission_0035/data.json",
+      "mission_id": 35,
+      "difficulties": "missions/mission_0035/difficulties.json",
+      "rank_conditions": "missions/mission_0035/rank_conditions.json",
+      "rewards": "missions/mission_0035/rewards.json"
+    },
+    {
+      "id": "mission_0077",
+      "display_name": null,
+      "path": "missions/mission_0077/data.json",
+      "mission_id": 77,
+      "difficulties": "missions/mission_0077/difficulties.json",
+      "rank_conditions": "missions/mission_0077/rank_conditions.json",
+      "rewards": "missions/mission_0077/rewards.json"
+    }
   ]
 }

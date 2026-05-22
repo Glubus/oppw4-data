@@ -1,0 +1,26 @@
+{
+  "$schema": "../../schemas/mission_rewards.schema.json",
+  "mission_id": "mission_0035",
+  "observations": [
+    {
+      "mode": "free_log",
+      "difficulty": "normal",
+      "berry": {
+        "raw_slots": {}
+      },
+      "items": [],
+      "crew_points": {
+        "raw_fields": {}
+      },
+      "souls": {
+        "status": "unknown",
+        "raw_fields": {},
+        "notes": [
+          "Soul reward commit fields are not confirmed yet."
+        ]
+      },
+      "source": "sdk.runtime log 2026-05-21-215933",
+      "notes": []
+    }
+  ]
+}

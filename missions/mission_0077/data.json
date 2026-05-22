@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/mission.schema.json",
+  "id": "mission_0077",
+  "display_name": null,
+  "aliases": [],
+  "ids": {
+    "mission": 77,
+    "linkdata": null
+  },
+  "modes": [
+    "treasure_log"
+  ],
+  "difficulties": {
+    "ref": "difficulties.json"
+  },
+  "rank_conditions": {
+    "ref": "rank_conditions.json"
+  },
+  "rewards": {
+    "ref": "rewards.json"
+  },
+  "notes": [
+    "Seeded from sdk.runtime log 2026-05-21-221212."
+  ]
+}

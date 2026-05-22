@@ -1,0 +1,47 @@
+{
+  "$schema": "../../schemas/mission_rewards.schema.json",
+  "mission_id": "mission_0077",
+  "observations": [
+    {
+      "mode": "treasure_log",
+      "difficulty": "normal",
+      "berry": {
+        "raw_slots": {}
+      },
+      "items": [
+        {
+          "item_id": 238,
+          "amount": 1,
+          "new": false,
+          "label": null,
+          "notes": [
+            "Candidate soul-like reward from item hook; not confirmed."
+          ]
+        }
+      ],
+      "crew_points": {
+        "raw_fields": {}
+      },
+      "souls": {
+        "status": "partial",
+        "raw_fields": {},
+        "reported": [
+          {
+            "kind": "attack_small",
+            "amount": 2
+          },
+          {
+            "kind": "defense_small",
+            "amount": 1
+          }
+        ],
+        "notes": [
+          "User reported 2 small attack souls and 1 small defense soul.",
+          "Exact item ids and commit fields are not confirmed."
+        ]
+      },
+      "source": "sdk.runtime log 2026-05-21-221212",
+      "notes": []
+    }
+  ]
+}

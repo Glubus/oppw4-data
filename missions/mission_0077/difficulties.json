@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/mission_difficulties.schema.json",
+  "mission_id": "mission_0077",
+  "observations": [
+    {
+      "difficulty": "normal",
+      "difficulty_id": 1,
+      "mode": "treasure_log",
+      "runtime": {
+        "mission_id": 77,
+        "mode_id": 2,
+        "reward_mode": 3,
+        "global_offset": "0x1d756"
+      },
+      "difficulty_row": {
+        "raw_fields": {}
+      },
+      "source": "sdk.runtime log 2026-05-21-221212",
+      "notes": [
+        "Treasure log effective difficulty may be mission-forced.",
+        "Difficulty row labels are not confirmed yet."
+      ]
+    }
+  ]
+}

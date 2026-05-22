@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/mission.schema.json",
+  "title": "OPPW4 Mission",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "display_name", "aliases", "ids", "modes", "notes"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^mission_[0-9]{4}$"
+    },
+    "display_name": {
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "ids": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["mission", "linkdata"],
+      "properties": {
+        "mission": {
+          "$ref": "#/$defs/nullable_u16"
+        },
+        "linkdata": {
+          "$ref": "#/$defs/nullable_u16"
+        }
+      }
+    },
+    "modes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/mission_mode"
+      },
+      "uniqueItems": true
+    },
+    "difficulties": {
+      "$ref": "#/$defs/ref_file"
+    },
+    "rank_conditions": {
+      "$ref": "#/$defs/ref_file"
+    },
+    "rewards": {
+      "$ref": "#/$defs/ref_file"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "nullable_u16": {
+      "type": ["integer", "null"],
+      "minimum": 0,
+      "maximum": 65535
+    },
+    "mission_mode": {
+      "type": "string",
+      "enum": ["story", "free_log", "treasure_log", "dlc", "transition", "unknown"]
+    },
+    "ref_file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["ref"],
+      "properties": {
+        "ref": {
+          "type": "string",
+          "pattern": "^[a-z0-9_][a-z0-9_-]*\\.json$"
+        }
+      }
+    }
+  }
+}

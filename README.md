@@ -17,10 +17,21 @@ characters/
       default.json
     movesets.json
     evidence.md
+missions/
+  mission_0035/
+    data.json
+    difficulties.json
+    rank_conditions.json
+    rewards.json
+    evidence.md
 schemas/
   character.schema.json
   costume.schema.json
   movesets.schema.json
+  mission.schema.json
+  mission_difficulties.schema.json
+  mission_rank_conditions.schema.json
+  mission_rewards.schema.json
 generated/
   index.json
 ```
@@ -38,8 +49,15 @@ targetable pieces as needed.
 `characters/<id>/movesets.json` owns moveset references when known.
 `evidence.md` records where uncertain IDs or relationships came from.
 
-`generated/index.json` is derived from the character folders and should be
-regenerated when source data changes.
+`missions/<id>/data.json` owns stable mission identity and points to focused
+mission data files. `difficulties.json` records observed effective difficulty
+state and raw difficulty rows, `rank_conditions.json` records fixed rank rows
+and condition rows, and `rewards.json` records Berry, item/medal, crew point,
+and soul reward evidence. Unknown fields should stay as raw values with notes
+instead of invented labels.
+
+`generated/index.json` is derived from the source folders and should be
+regenerated when character or mission source data changes.
 
 ## Commands
 

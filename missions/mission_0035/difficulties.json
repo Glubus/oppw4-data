@@ -1,0 +1,25 @@
+{
+  "$schema": "../../schemas/mission_difficulties.schema.json",
+  "mission_id": "mission_0035",
+  "observations": [
+    {
+      "difficulty": "normal",
+      "difficulty_id": 1,
+      "mode": "free_log",
+      "runtime": {
+        "mission_id": 35,
+        "mode_id": 1,
+        "reward_mode": 3,
+        "global_offset": "0x1d756"
+      },
+      "difficulty_row": {
+        "raw_fields": {}
+      },
+      "source": "sdk.runtime log 2026-05-21-215933",
+      "notes": [
+        "Difficulty row labels are not confirmed yet.",
+        "Fields 0x334..0x39c still need runtime labels."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/mission_rank_conditions.schema.json",
+  "title": "OPPW4 Mission Rank Conditions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["mission_id", "observations"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "mission_id": {
+      "type": "string",
+      "pattern": "^mission_[0-9]{4}$"
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": true,
+        "required": ["mode", "difficulty", "rank_row", "condition_row", "condition_table", "source", "notes"],
+        "properties": {
+          "mode": {
+            "type": "string"
+          },
+          "difficulty": {
+            "type": "string"
+          },
+          "rank_row": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "condition_row": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "fixed_rank_table": {
+            "type": "object"
+          },
+          "condition_table": {
+            "type": "object"
+          },
+          "result_fields": {
+            "type": "object"
+          },
+          "source": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
