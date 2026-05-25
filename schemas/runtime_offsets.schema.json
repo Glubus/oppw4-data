@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/runtime_offsets.schema.json",
+  "title": "OPPW4 Runtime Offsets",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["module", "global_state", "fixed_data", "sources"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "module": {
+      "type": "string"
+    },
+    "global_state": {
+      "type": "object"
+    },
+    "fixed_data": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

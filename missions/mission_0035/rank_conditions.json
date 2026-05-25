@@ -9,25 +9,55 @@
       "condition_row": 12,
       "fixed_rank_table": {
         "row_stride": "0x44",
-        "condition_row_field": "0x16"
+        "condition_row_field": "0x16",
+        "linkdata_a_entry_3_raw_row_offset": "0x330"
       },
       "condition_table": {
         "base_offset": "0xc43c",
         "row_stride": "0x34",
+        "linkdata_a_entry_3_raw_base_offset": "0xc684",
+        "linkdata_a_entry_3_raw_row_offset": "0xc8f4",
         "raw_fields": {
+          "0x00": 1,
           "0x04": 2000,
           "0x08": 5000,
           "0x0c": 70,
           "0x10": 70,
+          "0x14": 1,
           "0x18": 7000,
           "0x1c": 9000,
           "0x20": 630,
-          "0x24": 630
+          "0x24": 630,
+          "0x28": 6,
+          "0x2c": 65535,
+          "0x2e": 13,
+          "0x30": 2,
+          "0x32": 216
         }
+      },
+      "easy_rank_cap": {
+        "status": "confirmed_bypassable",
+        "game_behavior": "Easy downgrades S/S+-like rank candidates and sets a warning flag.",
+        "safe_runtime_api": "set_easy_s_rankable(true)",
+        "patched_branches": [
+          "FUN_14132b570 final rank cap",
+          "FUN_14132b570 score rank cap",
+          "FUN_14132aae0 global rank primary cap",
+          "FUN_14132aae0 global rank mode4 cap",
+          "FUN_14132aae0 global rank mode5 cap"
+        ],
+        "reward_dependency": [
+          "Berry S/S+ bonus depends on the global rank before final reward slots are committed.",
+          "Item reward context also consumed the capped rank in failed runs."
+        ]
       },
       "source": "sdk.runtime log 2026-05-21-215933",
       "notes": [
-        "Field labels are still unknown; values are raw condition row fields."
+        "Field labels are still unknown; values are raw fixed-table fields.",
+        "The older condition_row label is provisional. Ghidra now shows visible grades are computed by helper functions FUN_1412dd9e0 and FUN_1412dd950 over row thresholds.",
+        "Use rank_helper_probe logs to correlate these raw rows with time/count thresholds before exposing public rank editing.",
+        "Raw LinkData offsets were verified against inflated LINKDATA_A.BIN entry 3 on 2026-05-22.",
+        "The earlier 0x320 rank-row hit was 0x10 bytes before raw row 12; use 0x330 as the row start."
       ]
     }
   ]

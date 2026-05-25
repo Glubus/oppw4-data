@@ -1,0 +1,111 @@
+{
+  "$schema": "../schemas/game_difficulties.schema.json",
+  "vanilla": [
+    {
+      "id": 0,
+      "canonical": "easy",
+      "labels": {
+        "eng": "Easy",
+        "fra": "Facile"
+      },
+      "notes": [
+        "Easy is hard-capped below S/S+ by result/rank code unless the cap branches are bypassed."
+      ]
+    },
+    {
+      "id": 1,
+      "canonical": "normal",
+      "labels": {
+        "eng": "Normal",
+        "fra": "Normale"
+      },
+      "notes": []
+    },
+    {
+      "id": 2,
+      "canonical": "hard",
+      "labels": {
+        "eng": "Hard",
+        "fra": "Difficile"
+      },
+      "notes": []
+    },
+    {
+      "id": 3,
+      "canonical": "super_hard",
+      "labels": {
+        "eng": "Super Hard",
+        "fra": "Ultra difficile"
+      },
+      "notes": [
+        "Unlocked by vanilla progression."
+      ]
+    }
+  ],
+  "virtual_designs": [
+    {
+      "id": "nightmare",
+      "menu_strategy": "virtualize_existing_vanilla_id_first",
+      "preferred_vanilla_base": "easy",
+      "notes": [
+        "Do not expose runtime difficulty id 4 yet: several vanilla functions clamp difficulty > 3 back to Easy or row 0.",
+        "A first Nightmare prototype should keep a vanilla difficulty id and layer combat/spawn/reward patches over it.",
+        "UI replacement can initially rename an existing difficulty label once text keys/assets are confirmed."
+      ]
+    }
+  ],
+  "runtime": {
+    "selected_difficulty": {
+      "global_offset": "0x1d756",
+      "type": "u8",
+      "source": "sdk.runtime difficulty_probe and CScCondGameDifficulty reverse notes"
+    },
+    "cached_difficulty": {
+      "rva": "0x1e5ec04",
+      "type": "u32",
+      "notes": [
+        "Observed as cached/transition state; not the authoritative selected difficulty in all contexts."
+      ]
+    },
+    "lookup_constraints": [
+      {
+        "function": "FUN_1412f9be0",
+        "behavior": "returns row 0 when difficulty > 3"
+      },
+      {
+        "function": "FUN_1412d5ad0",
+        "behavior": "maps difficulty > 3 back to 0"
+      },
+      {
+        "tables": ["0xb3d8", "0xb3dc", "0xb3e0"],
+        "behavior": "four vanilla difficulty slots only"
+      }
+    ]
+  },
+  "ui_refs": {
+    "known_text_keys": [
+      "tb_difficult",
+      "tb_level_of_difficulty"
+    ],
+    "known_language_entries": [
+      {
+        "file": "LANG/FRA/LINKDATA_LANG_FRA.BIN",
+        "entry": 0,
+        "contains": "visible difficulty labels"
+      },
+      {
+        "file": "LANG/ENG/LINKDATA_LANG_ENG.BIN",
+        "entry": 1,
+        "contains": "difficulty/help text and Treasure Log fixed-difficulty text"
+      }
+    ],
+    "open_questions": [
+      "Exact text row ids for Easy/Normal/Hard/Super Hard still need a language LinkData dump.",
+      "Difficulty menu layout or atlas references are not mapped yet."
+    ]
+  },
+  "sources": [
+    "docs/reverse-notes/difficulty-reward-ghidra-2026-05-20.md",
+    "sdk.runtime logs 2026-05-20 through 2026-05-23"
+  ]
+}

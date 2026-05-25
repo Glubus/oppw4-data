@@ -6,7 +6,15 @@
       "mode": "free_log",
       "difficulty": "normal",
       "berry": {
-        "raw_slots": {}
+        "raw_slots": {},
+        "rank_bonus_dependency": {
+          "status": "confirmed",
+          "rank_param": "reward_probe param4",
+          "notes": [
+            "When Easy cap was still active, reward_probe used rank/context 3 and S/S+ bonus was not awarded.",
+            "After bypassing all Easy cap branches, reward_probe used rank/context 4 and the tester received S rank everywhere."
+          ]
+        }
       },
       "items": [],
       "crew_points": {

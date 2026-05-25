@@ -24,10 +24,17 @@ missions/
     rank_conditions.json
     rewards.json
     evidence.md
+game/
+  difficulties.json
+  ranks.json
+  runtime_offsets.json
 schemas/
   character.schema.json
   costume.schema.json
+  game_difficulties.schema.json
+  game_ranks.schema.json
   movesets.schema.json
+  runtime_offsets.schema.json
   mission.schema.json
   mission_difficulties.schema.json
   mission_rank_conditions.schema.json
@@ -55,6 +62,11 @@ state and raw difficulty rows, `rank_conditions.json` records fixed rank rows
 and condition rows, and `rewards.json` records Berry, item/medal, crew point,
 and soul reward evidence. Unknown fields should stay as raw values with notes
 instead of invented labels.
+
+`game/` owns cross-mission data such as vanilla difficulty ids, known rank enum
+values, runtime offsets, UI/text keys, and LinkData references. Put future
+Nightmare/SSS/X planning data here first, then wire runtime/plugins to it after
+the labels are confirmed.
 
 `generated/index.json` is derived from the source folders and should be
 regenerated when character or mission source data changes.

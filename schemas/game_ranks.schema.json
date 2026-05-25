@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/game_ranks.schema.json",
+  "title": "OPPW4 Game Ranks",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["known_runtime_values", "result_cap", "ui_refs", "sources"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "known_runtime_values": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["value", "canonical", "display_label", "confidence", "notes"],
+        "properties": {
+          "value": {
+            "type": "integer"
+          },
+          "canonical": {
+            "type": "string"
+          },
+          "display_label": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "result_cap": {
+      "type": "object"
+    },
+    "ui_refs": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://oppw4.tools/schemas/game_difficulties.schema.json",
+  "title": "OPPW4 Game Difficulties",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["vanilla", "runtime", "ui_refs", "sources"],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "vanilla": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "canonical", "labels", "notes"],
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 255
+          },
+          "canonical": {
+            "type": "string"
+          },
+          "labels": {
+            "type": "object"
+          },
+          "notes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "virtual_designs": {
+      "type": "array"
+    },
+    "runtime": {
+      "type": "object"
+    },
+    "ui_refs": {
+      "type": "object"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

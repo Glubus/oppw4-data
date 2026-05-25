@@ -3,6 +3,84 @@
   "mission_id": "mission_0035",
   "observations": [
     {
+      "difficulty": "easy",
+      "difficulty_id": 0,
+      "mode": "free_log",
+      "runtime": {
+        "mission_id": 35,
+        "mode_id": 1,
+        "reward_mode": 3,
+        "global_offset": "0x1d756"
+      },
+      "difficulty_row": {
+        "row_index_source": "FUN_1412f9be0(mission_id, difficulty)",
+        "direct_fields": {
+          "0x334": {
+            "status": "gameplay_or_reward_scalar",
+            "label": null,
+            "notes": [
+              "Runtime patches show this belongs to the fixed difficulty/reward row family, but visible gameplay meaning is not confirmed."
+            ]
+          },
+          "0x33c": {
+            "status": "actor_stat_init_input",
+            "label": null,
+            "used_by": [
+              "FUN_141231100",
+              "FUN_141230830",
+              "FUN_1413fab30"
+            ],
+            "notes": [
+              "FUN_141231100 uses it when initializing actor stats, combined with source row percentage fields."
+            ]
+          },
+          "0x340": {
+            "status": "actor_stat_init_input",
+            "label": null,
+            "used_by": [
+              "FUN_141231100",
+              "FUN_141230780"
+            ],
+            "notes": [
+              "FUN_141231100 uses it when initializing actor stats, combined with source row percentage fields."
+            ]
+          },
+          "0x348": {
+            "status": "result_or_reward_presentation_candidate",
+            "label": null,
+            "used_by": [
+              "FUN_1415d8780"
+            ]
+          }
+        },
+        "category_tables": {
+          "0x1928": {
+            "status": "unknown",
+            "notes": [
+              "Quick runtime patches did not produce an obvious visible effect."
+            ]
+          },
+          "0x1930": {
+            "status": "unknown",
+            "notes": [
+              "Quick runtime patches did not produce an obvious visible effect."
+            ]
+          },
+          "0x1938": {
+            "status": "unknown",
+            "notes": [
+              "Quick runtime patches did not produce an obvious visible effect."
+            ]
+          }
+        }
+      },
+      "source": "sdk.runtime logs 2026-05-23-124257 through 2026-05-23-194659",
+      "notes": [
+        "Easy can be made S/S+ rankable by bypassing the Easy-only result/rank cap branches.",
+        "The currently useful runtime API should patch only confirmed row fields and keep unknown category rows marked unsafe/experimental."
+      ]
+    },
+    {
       "difficulty": "normal",
       "difficulty_id": 1,
       "mode": "free_log",
@@ -13,7 +91,13 @@
         "global_offset": "0x1d756"
       },
       "difficulty_row": {
-        "raw_fields": {}
+        "row_index_source": "FUN_1412f9be0(mission_id, difficulty)",
+        "raw_fields": {
+          "0x334": 270,
+          "0x33c": 550,
+          "0x340": 550,
+          "0x348": 2500
+        }
       },
       "source": "sdk.runtime log 2026-05-21-215933",
       "notes": [

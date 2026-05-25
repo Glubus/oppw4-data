@@ -1,0 +1,88 @@
+{
+  "$schema": "../schemas/game_ranks.schema.json",
+  "known_runtime_values": [
+    {
+      "value": 3,
+      "canonical": "easy_cap_downgrade",
+      "display_label": "below_s",
+      "confidence": "confirmed_behavior",
+      "notes": [
+        "Easy cap branches downgrade S/S+-like candidates to 3 and set the warning flag.",
+        "This likely maps to A in many result contexts, but keep the label conservative until all grade enums are mapped."
+      ]
+    },
+    {
+      "value": 4,
+      "canonical": "s",
+      "display_label": "S",
+      "confidence": "confirmed_runtime",
+      "notes": [
+        "Observed as reward context / rank parameter when the tester received S rank everywhere after bypassing the Easy cap."
+      ]
+    },
+    {
+      "value": 5,
+      "canonical": "s_plus",
+      "display_label": "S+",
+      "confidence": "confirmed_branch_candidate",
+      "notes": [
+        "Compared by result rank code as an S+ candidate before Easy-only downgrade branches."
+      ]
+    }
+  ],
+  "result_cap": {
+    "grade_helpers": {
+      "status": "confirmed_ghidra_needs_runtime_labels",
+      "time_or_lower_is_better": {
+        "function": "FUN_1412dd9e0",
+        "description": "Reads selector 0 from row+0x64 and compares a float value against five u32 threshold columns. Lower values return better rank candidates."
+      },
+      "count_or_higher_is_better": {
+        "function": "FUN_1412dd950",
+        "description": "Reads selector 1 from row+0x64 and compares a normalized u32 value against five u32 threshold columns. Higher values return better rank candidates."
+      },
+      "runtime_probe": "sdk.runtime rank_helper_probe"
+    },
+    "merge_helper": {
+      "status": "confirmed_ghidra_needs_runtime_labels",
+      "function": "FUN_1412dd790",
+      "description": "Merges two sub-ranks by mapping each rank through DAT_141953390, reading fixed_owner+0x20+0x1048 score entries, scaling by 0.001, summing both scores, then comparing against grade target indexes ending at DAT_1419533bc.",
+      "runtime_probe": "sdk.runtime rank_helper_probe with merge_enabled=true",
+      "notes": [
+        "The global rank is score-weighted, not a simple min/max of time and count sub-ranks.",
+        "Future rank.map_global_rank or rank.override_thresholds APIs should keep threshold edits separate from merge policy."
+      ]
+    },
+    "easy_rankable_patch": {
+      "status": "confirmed",
+      "description": "Bypassing the Easy-only downgrade branches allows Easy missions to award S/S+ and the matching reward bonus.",
+      "patched_sites": [
+        "final result cap branch in FUN_14132b570",
+        "score rank cap branch in FUN_14132b570",
+        "global rank primary cap branch in FUN_14132aae0",
+        "global rank mode4 cap branch in FUN_14132aae0",
+        "global rank mode5 cap branch in FUN_14132aae0"
+      ],
+      "result_fields": {
+        "easy_warning_flag": "result state + 0x328",
+        "rank_candidate_block": "result state + 0x2a4"
+      }
+    }
+  },
+  "ui_refs": {
+    "known_text_or_layout_keys": [
+      "mai_epi_rank",
+      "mai_epi_rank_A",
+      "CUIGalleryRewardSplus",
+      "cmn_topmenu_txt_splus_reward_confirmation"
+    ],
+    "open_questions": [
+      "Rank icons may be layout/atlas entries rather than simple standalone image files.",
+      "Custom SS/SSS/X ranks need result UI mapping or atlas/layout extension; data key names are not enough yet."
+    ]
+  },
+  "sources": [
+    "docs/reverse-notes/difficulty-reward-ghidra-2026-05-20.md#easy-rank-cap",
+    "sdk.runtime logs 2026-05-23-131038, 2026-05-23-142134"
+  ]
+}

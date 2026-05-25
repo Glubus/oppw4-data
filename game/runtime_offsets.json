@@ -1,0 +1,67 @@
+{
+  "$schema": "../schemas/runtime_offsets.schema.json",
+  "module": "OPPW4.exe",
+  "global_state": {
+    "root_rva": "0x1eba750",
+    "owner_offset": "0x18",
+    "state_offset": "0x28",
+    "fields": {
+      "mission_id": {
+        "offset": "0x1d750",
+        "type": "u16"
+      },
+      "mode_type": {
+        "offset": "0x1d753",
+        "type": "u8",
+        "labels": {
+          "0": "story",
+          "1": "free_log",
+          "2": "treasure_log",
+          "6": "inactive_or_transition"
+        }
+      },
+      "reward_mode": {
+        "offset": "0x1d754",
+        "type": "u8"
+      },
+      "difficulty": {
+        "offset": "0x1d756",
+        "type": "u8",
+        "labels_ref": "game/difficulties.json"
+      },
+      "special_flag": {
+        "offset": "0x1d762",
+        "type": "u8"
+      },
+      "rank_or_result_profile": {
+        "offset": "0x1d9b0",
+        "type": "u32",
+        "notes": [
+          "Stores a rank/result profile row id, not the final visible grade."
+        ]
+      }
+    }
+  },
+  "fixed_data": {
+    "root_rva": "0x1eba738",
+    "owner_offset": "0x18",
+    "reward_rows_pointer_offset": "0x20",
+    "reward_index_pointer_offset": "0x28",
+    "reward_row_stride": "0x6c",
+    "base_reward_index": {
+      "base_offset": "0x00a8",
+      "mission_stride": "0x006e",
+      "formula": "0x00a8 + (mission_id * 0x6e + difficulty) * 2"
+    },
+    "special_reward_index": {
+      "base_offset": "0x46cba",
+      "context_stride": "0x2c",
+      "formula": "0x46cba + (special_context * 0x2c + difficulty) * 2"
+    }
+  },
+  "sources": [
+    "sdk.runtime difficulty_probe",
+    "sdk.runtime spawn_scaling_probe",
+    "docs/reverse-notes/difficulty-reward-ghidra-2026-05-20.md"
+  ]
+}
