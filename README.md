@@ -91,6 +91,20 @@ Validate JSON shape:
 python3 scripts/validate_json.py
 ```
 
+Export runtime evidence from SDK logs without touching the game:
+
+```sh
+python3 scripts/export_runtime_snapshots.py D:/SteamLibrary/steamapps/common/OPPW4/plugins/sdk/logs/sdk_runtime --dry-run
+python3 scripts/export_runtime_snapshots.py D:/SteamLibrary/steamapps/common/OPPW4/plugins/sdk/logs/sdk_runtime --dry-run --event-kind rank --event-kind difficulty --json
+```
+
+Useful filters:
+
+- `--mission-id 35`
+- `--event-kind difficulty`, `rank`, `reward`, `result`, or `fixed`
+- `--date 2026-05-26`
+- `--json` for structured mission/mode/difficulty/rank/reward/fixed-id output
+
 ## Rules
 
 - Keep source data as JSON.
